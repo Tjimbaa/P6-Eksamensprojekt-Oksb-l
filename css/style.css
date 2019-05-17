@@ -47,7 +47,7 @@ header{
     padding-left: 40px;
 }
 
-/*----------------------------------------------FORSIDE-----------------------------------------*/
+/*-----------------------------SECTION 1-----------------------------------------*/
 
 .bg{
     background-image: url("../img/anna-samoylova-535880-unsplash.jpg");
@@ -64,12 +64,19 @@ header{
 }
 
 .box1{
-    background-color: blue;
-    height: 200px;
+    background-color: rgba(1,158,226,0.7);
+    height: 110px;
     width: 500px;
     margin-top: 100px;
     margin-left: 10%;
+    border-radius: 20px;
     float: left;
+}
+
+.box1 p{
+    text-align: center;
+    color: #ffffff;
+    font-size: 44px;
 }
 
 .box2{
@@ -79,12 +86,26 @@ header{
     margin-left: 60%;
 }
 
-.test{
-    background-color: blue;
+.kortInfo{
+    background-color: rgba(1,158,226,0.7);
     height: 400px;
     width: 500px;
     margin-bottom: 40px;
-    opacity: 0.5;
+    border-radius: 20px;
+}
+
+.kortInfo h2{
+    padding: 30px 50px;
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: 100;
+}
+
+.kortInfo p{
+    padding: 0px 50px;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 100;
 }
 
 .book{
@@ -95,38 +116,47 @@ header{
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 24px;
     cursor: pointer;
     /* Koden forneden er for at centre button */
     display: block;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 10px;
 }
 
 /*-----------------------------SECTION 2-----------------------------------------*/
 
 .information{
-    color: #333;
-    padding: 100px 200px;
-    font-size: 50px;
+    color: #019EE2;
+    padding: 100px 300px;
+    font-size: 80px;
     font-weight: 900;
 }
 
-.picBox{
-    background-image: url("../img/lonely-planet-973277-unsplash.jpg");
-    background-size: 100%;
-    background-position: 0% 70%;
-    margin: 0px 0px 50px 200px;
+.filler{
+    margin: 0px 0px 50px 300px;
     width: 800px;
     height: 550px;
-    border: solid 0.1px #333;
+}
+
+/* LÆRING */
+
+.picBox{
+    background-image: url("../img/L%C3%A6ring.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0px 0px 50px 300px;
+    width: 900px;
+    height: 550px;
 }
 
 .infoBox{
     background-color: #f3f3f3;
-    margin: 300px 0px 0px 550px;
-    width: 500px;
-    height: 250px;
+    margin: 275px 0px 0px 600px;
+    width: 550px;
+    height: 275px;
+    position: absolute;
 }
 
 .infoBox p, h2{
@@ -148,7 +178,147 @@ header{
 
 .mereInfo{
     background-color: #019EE2;
-    margin: 0px 0px 0px 500px;
+    margin: 0px 0px 0px 550px;
     width: 100px;
-    height: 250px;
+    height: 275px;
+}
+
+/* AKTIVITETER */
+
+.picBox2{
+    background-image: url("../img/lonely-planet-973277-unsplash.jpg");
+    background-size: 100%;
+    background-position: 0% 70%;
+    margin: 0px 15% 50px 0px;
+    position: absolute;
+    right: 0;
+    width: 900px;
+    height: 550px;
+}
+
+.infoBox2{
+    background-color: #f3f3f3;
+    margin: 275px 600px 0px 0px;
+    width: 550px;
+    height: 275px;
+    position: absolute;
+    right: 0;
+}
+
+.infoBox2 p, h2{
+    float: left;
+}
+
+.infoBox2 h2{
+    color: #75902E;
+    padding: 50px 0px 20px 50px;
+    font-size: 50px;
+    font-weight: 100;
+}
+
+.infoBox2 p{
+    clear: both;
+    padding: 0px 50px 0px 50px;
+    font-size: 20px;
+}
+
+.mereInfo2{
+    background-color: #75902E;
+    margin: 0px 550px 0px 0px;
+    width: 100px;
+    height: 275px;
+    position: absolute;
+    right: 0; 
+}
+
+/* FACILITETER */
+
+.picBox3{
+    background-image: url("../img/hytte-2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0px 0px 50px 300px;
+    width: 900px;
+    height: 550px;
+}
+
+.infoBox3{
+    background-color: #f3f3f3;
+    margin: 275px 0px 0px 600px;
+    width: 550px;
+    height: 275px;
+    position: absolute;
+}
+
+.infoBox3 p, h2{
+    float: left;
+}
+
+.infoBox3 h2{
+    color: #FCC962;
+    padding: 50px 0px 20px 50px;
+    font-size: 50px;
+    font-weight: 100;
+}
+
+.infoBox3 p{
+    clear: both;
+    padding: 0px 50px 0px 50px;
+    font-size: 20px;
+}
+
+.mereInfo3{
+    background-color: #FCC962;
+    margin: 0px 0px 0px 550px;
+    width: 100px;
+    height: 275px;
+}
+
+/* KONTAKT OS */
+
+
+.picBox4{
+    background-image: url("../img/adult-business-businessman-2182970.jpg");
+    background-size: 100%;
+    background-position: 0% 10%;
+    margin: 0px 15% 50px 0px;
+    position: absolute;
+    right: 0;
+    width: 900px;
+    height: 550px;
+}
+
+.infoBox4{
+    background-color: #f3f3f3;
+    margin: 275px 600px 0px 0px;
+    width: 550px;
+    height: 275px;
+    position: absolute;
+    right: 0;
+}
+
+.infoBox4 p, h2{
+    float: left;
+}
+
+.infoBox4 h2{
+    color: #75902E;
+    padding: 50px 0px 20px 50px;
+    font-size: 50px;
+    font-weight: 100;
+}
+
+.infoBox4 p{
+    clear: both;
+    padding: 0px 50px 0px 50px;
+    font-size: 20px;
+}
+
+.mereInfo4{
+    background-color: #75902E;
+    margin: 0px 550px 0px 0px;
+    width: 100px;
+    height: 275px;
+    position: absolute;
+    right: 0; 
 }
