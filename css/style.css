@@ -149,13 +149,18 @@ header{
     position: absolute;
 }
 
+.wrapper{
+    width: 1300px;
+    margin: 0 auto;
+}
+
 /* LÆRING */
 
 .picBox{
     background-image: url("../img/L%C3%A6ring.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    margin: 0px 0px 50px 300px;
+    margin: 0px 0px 50px 0px;
     width: 900px;
     height: 550px;
 }
@@ -198,20 +203,18 @@ header{
     background-image: url("../img/lonely-planet-973277-unsplash.jpg");
     background-size: 100%;
     background-position: 0% 70%;
-    margin: 0px 15% 50px 0px;
-    position: absolute;
-    right: 0;
+    margin: 0px 0% 50px 0px;
     width: 900px;
     height: 550px;
+    float: right;
 }
 
 .infoBox2{
     background-color: #f3f3f3;
     margin: 275px 600px 0px 0px;
-    width: 550px;
+    width: 650px;
     height: 275px;
-    position: absolute;
-    right: 0;
+    float: right;
 }
 
 .infoBox2 p, h2{
@@ -220,14 +223,14 @@ header{
 
 .infoBox2 h2{
     color: #75902E;
-    padding: 50px 0px 20px 50px;
+    padding: 50px 0px 20px 150px;
     font-size: 50px;
     font-weight: 100;
 }
 
 .infoBox2 p{
     clear: both;
-    padding: 0px 50px 0px 50px;
+    padding: 0px 50px 0px 150px;
     font-size: 20px;
 }
 
@@ -236,8 +239,8 @@ header{
     margin: 0px 550px 0px 0px;
     width: 100px;
     height: 275px;
+    float: right;
     position: absolute;
-    right: 0; 
 }
 
 /* FACILITETER */
@@ -246,7 +249,7 @@ header{
     background-image: url("../img/hytte-2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    margin: 0px 0px 50px 300px;
+    margin: 0px 0px 50px 0px;
     width: 900px;
     height: 550px;
 }
@@ -290,9 +293,8 @@ header{
     background-image: url("../img/adult-business-businessman-2182970.jpg");
     background-size: 100%;
     background-position: 0% 10%;
-    margin: 0px 15% 50px 0px;
-    position: absolute;
-    right: 0;
+    margin: 0px 0px 50px 0px;
+    float: right;
     width: 900px;
     height: 550px;
 }
@@ -300,10 +302,9 @@ header{
 .infoBox4{
     background-color: #f3f3f3;
     margin: 275px 600px 0px 0px;
-    width: 550px;
+    width: 650px;
     height: 275px;
-    position: absolute;
-    right: 0;
+    float: right;
 }
 
 .infoBox4 p, h2{
@@ -312,14 +313,14 @@ header{
 
 .infoBox4 h2{
     color: #75902E;
-    padding: 50px 0px 20px 50px;
+    padding: 50px 0px 20px 150px;
     font-size: 50px;
     font-weight: 100;
 }
 
 .infoBox4 p{
     clear: both;
-    padding: 0px 50px 0px 50px;
+    padding: 0px 50px 0px 150px;
     font-size: 20px;
 }
 
@@ -329,5 +330,5 @@ header{
     width: 100px;
     height: 275px;
     position: absolute;
-    right: 0; 
+    float: right;
 }
