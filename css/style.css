@@ -129,7 +129,7 @@ header{
 
 .information{
     color: #019EE2;
-    padding: 100px 300px;
+    padding: 100px 0px;
     font-size: 80px;
     font-weight: 900;
 }
@@ -168,7 +168,7 @@ header{
 .infoBox{
     background-color: #f3f3f3;
     margin: 275px 0px 0px 600px;
-    width: 550px;
+    width: 600px;
     height: 275px;
     position: absolute;
 }
@@ -192,7 +192,7 @@ header{
 
 .mereInfo{
     background-color: #019EE2;
-    margin: 0px 0px 0px 550px;
+    margin: 0px 0px 0px 600px;
     width: 100px;
     height: 275px;
 }
@@ -212,7 +212,7 @@ header{
 .infoBox2{
     background-color: #f3f3f3;
     margin: 275px 600px 0px 0px;
-    width: 650px;
+    width: 700px;
     height: 275px;
     float: right;
 }
@@ -236,7 +236,7 @@ header{
 
 .mereInfo2{
     background-color: #75902E;
-    margin: 0px 550px 0px 0px;
+    margin: 0px 0px 0px 0px;
     width: 100px;
     height: 275px;
     float: right;
@@ -257,7 +257,7 @@ header{
 .infoBox3{
     background-color: #f3f3f3;
     margin: 275px 0px 0px 600px;
-    width: 550px;
+    width: 600px;
     height: 275px;
     position: absolute;
 }
@@ -281,7 +281,7 @@ header{
 
 .mereInfo3{
     background-color: #FCC962;
-    margin: 0px 0px 0px 550px;
+    margin: 0px 0px 0px 600px;
     width: 100px;
     height: 275px;
 }
@@ -302,7 +302,7 @@ header{
 .infoBox4{
     background-color: #f3f3f3;
     margin: 275px 600px 0px 0px;
-    width: 650px;
+    width: 700px;
     height: 275px;
     float: right;
 }
