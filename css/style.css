@@ -63,7 +63,7 @@ header{
 }
 
 .wrapper1{
-    padding-top: 100px;
+    padding-top: 120px;
     width: 1500px;
     margin: 0 auto;
 }
@@ -74,7 +74,7 @@ header{
 
 .titel{
     background-color: rgba(1,158,226,0.7);
-    height: 180px;
+    height: 190px;
     width: 620px;
     margin-bottom: 40px;
     border-radius: 20px;
@@ -84,7 +84,7 @@ header{
     text-align: center;
     color: #ffffff;
     font-size: 42px;
-    padding-bottom: 20px;
+    padding: 10px 0;
 }
 
 .titel p{
