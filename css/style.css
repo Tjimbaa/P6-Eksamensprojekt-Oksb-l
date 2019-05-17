@@ -47,7 +47,7 @@ header{
     padding-left: 40px;
 }
 
-/*-----------------------------SECTION 1-----------------------------------------*/
+/*--------------------------INDEX SECTION 1-----------------------------------------*/
 
 .bg{
     background-image: url("../img/104.jpg");
@@ -140,7 +140,7 @@ header{
     border-radius: 10px;
 }
 
-/*-----------------------------SECTION 2-----------------------------------------*/
+/*-----------------------------INDEX SECTION 2-----------------------------------------*/
 
 .information{
     color: #019EE2;
@@ -159,6 +159,15 @@ header{
     width: 40px;
     height: 40px;
     margin: 120px 28px 0;
+    border: solid 2px #fff;
+    border-radius: 100px;
+    position: absolute;
+} 
+
+.cirkel1{
+    width: 40px;
+    height: 40px;
+    margin: 65px 28px 0;
     border: solid 2px #fff;
     border-radius: 100px;
     position: absolute;
@@ -345,5 +354,207 @@ header{
     width: 100px;
     height: 275px;
     position: absolute;
+    float: right;
+}
+
+/*-----------------UNDERSIDE LÆRING-----------------------------------------*/
+
+/*-------------------LÆRING SECTION 1-----------------------------------------*/
+
+.bglaering{
+    background-image: url("../img/thomas-kelley-128626-unsplash.jpg");
+    height: 100vh;
+    background-size: cover;
+}
+
+/*-------------------LÆRING SECTION 2-----------------------------------------*/
+.wrapper2{
+    width: 1400px;
+    margin: 0 auto;
+}
+
+/* FLYGTNINGE MUSEUM */
+
+.picLaering{
+    background-image: url("../img/L%C3%A6ring.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0px 250px 50px 0px;
+    width: 35%;
+    height: 350px;
+    float: left;
+}
+
+.LaeringBox{
+    background-color: #f3f3f3;
+    margin: 175px 0px 0px 250px;
+    width: 325px;
+    height: 175px;
+    position: absolute;
+}
+
+.LaeringBox p, h2{
+    float: left;
+}
+
+.LaeringBox h2{
+    color: #019EE2;
+    padding: 30px 0px 20px 30px;
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.LaeringBox p{
+    clear: both;
+    padding: 0px 30px 0px 30px;
+    font-size: 18px;
+}
+
+.laeringInfo{
+    background-color: #019EE2;
+    margin: 0px 0px 0px 325px;
+    width: 100px;
+    height: 175px;
+}
+
+/* FLYGTNING UDSIGTSTÅRN */
+
+.picLaering2{
+    background-image: url("../img/Danmarks-Flygtninge-Museum-t%C3%A5rn-1024x575.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0px 0px 50px 0px;
+    width: 35%;
+    height: 350px;
+    float: left;
+}
+
+.LaeringBox2{
+    background-color: #f3f3f3;
+    margin: 175px 0px 0px 250px;
+    width: 325px;
+    height: 175px;
+    position: absolute;
+}
+
+.LaeringBox2 p, h2{
+    float: left;
+}
+
+.LaeringBox2 h2{
+    color: #75902E;
+    padding: 30px 0px 20px 30px;
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.LaeringBox2 p{
+    clear: both;
+    padding: 0px 30px 0px 30px;
+    font-size: 18px;
+}
+
+.laeringInfo2{
+    background-color: #75902E;
+    margin: 0px 0px 0px 325px;
+    width: 100px;
+    height: 175px;
+}
+
+/* FLYGTNINGELEJR */
+
+.picLaering3{
+    background-image: url("../img/jesse-orrico-487694-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0px 250px 50px 0px;
+    width: 35%;
+    height: 350px;
+    float: left;
+}
+
+.LaeringBox3{
+    background-color: #f3f3f3;
+    margin: 175px 0px 0px 250px;
+    width: 325px;
+    height: 175px;
+    position: absolute;
+}
+
+.LaeringBox3 p, h2{
+    float: left;
+}
+
+.LaeringBox3 h2{
+    color: #FCC962;
+    padding: 30px 0px 20px 30px;
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.LaeringBox3 p{
+    clear: both;
+    padding: 0px 30px 0px 30px;
+    font-size: 18px;
+}
+
+.laeringInfo3{
+    background-color: #FCC962;
+    margin: 0px 0px 0px 325px;
+    width: 100px;
+    height: 175px;
+}
+
+/*-----------------UNDERSIDE AKTIVITETER-----------------------------------------*/
+
+/*-------------------AKTIVITETER SECTION 1-----------------------------------------*/
+
+.bgaktiv{
+    background-image: url("../img/anna-samoylova-535880-unsplash.jpg");
+    height: 100vh;
+    background-size: cover;
+}
+
+.aktivInfo{
+    background-color: rgba(1,158,226,0.7);
+    height: 400px;
+    width: 500px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.aktivInfo h2{
+    text-align: center;
+    color: #ffffff;
+    font-size: 42px;
+    padding: 10px 0;
+}
+
+.aktivInfo p{
+    padding: 0px 50px;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 100;
+}
+
+/*-------------------AKTIVITETER SECTION 2-----------------------------------------*/
+
+.picAktiv{
+    background-image: url("../img/135.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0px 0px 50px 0px;
+    width: 900px;
+    height: 550px;
+}
+
+.picAktiv2{
+    background-image: url("../img/71.jpg");
+    background-size: 100%;
+    background-position: 0% 70%;
+    margin: 0px 0% 50px 0px;
+    width: 900px;
+    height: 550px;
     float: right;
 }
