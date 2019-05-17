@@ -183,6 +183,15 @@ header{
     height: 275px;
 }
 
+.cirkel{
+    width: 40px;
+    height: 40px;
+    margin: 120px 28px 0;
+    border: solid 2px #fff;
+    border-radius: 100px;
+    position: absolute;
+}
+
 /* AKTIVITETER */
 
 .picBox2{
