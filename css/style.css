@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin: 0;
+    scroll-behavior: smooth;
 }
 
 /*----------------------------------------------HEADER-----------------------------------------*/
@@ -10,6 +11,7 @@ header{
     width: 100%;
     height: 120px;
     position: fixed;
+    z-index: 1;
 }
 
 .logo{
@@ -99,4 +101,54 @@ header{
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+/*-----------------------------SECTION 2-----------------------------------------*/
+
+.information{
+    color: #333;
+    padding: 100px 200px;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.picBox{
+    background-image: url("../img/lonely-planet-973277-unsplash.jpg");
+    background-size: 100%;
+    background-position: 0% 70%;
+    margin: 0px 0px 50px 200px;
+    width: 800px;
+    height: 550px;
+    border: solid 0.1px #333;
+}
+
+.infoBox{
+    background-color: #f3f3f3;
+    margin: 300px 0px 0px 550px;
+    width: 500px;
+    height: 250px;
+}
+
+.infoBox p, h2{
+    float: left;
+}
+
+.infoBox h2{
+    color: #019EE2;
+    padding: 50px 0px 20px 50px;
+    font-size: 50px;
+    font-weight: 100;
+}
+
+.infoBox p{
+    clear: both;
+    padding: 0px 50px 0px 50px;
+    font-size: 20px;
+}
+
+.mereInfo{
+    background-color: #019EE2;
+    margin: 0px 0px 0px 500px;
+    width: 100px;
+    height: 250px;
 }
