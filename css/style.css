@@ -56,41 +56,56 @@ header{
 }
 
 .boxes{
-
     height: 85vh;
     width: 100%;
     margin-top: 120px;
     float: left;
 }
 
+.wrapper1{
+    padding-top: 100px;
+    width: 1500px;
+    margin: 0 auto;
+}
+
 .box1{
-    background-color: rgba(1,158,226,0.7);
-    height: 110px;
-    width: 500px;
-    margin-top: 100px;
-    margin-left: 10%;
-    border-radius: 20px;
     float: left;
 }
 
-.box1 p{
+.titel{
+    background-color: rgba(1,158,226,0.7);
+    height: 180px;
+    width: 620px;
+    margin-bottom: 40px;
+    border-radius: 20px;
+}
+
+.titel h2{
     text-align: center;
     color: #ffffff;
-    font-size: 44px;
+    font-size: 42px;
+    padding-bottom: 20px;
+}
+
+.titel p{
+    text-align: center;
+    width: 470px;
+    margin: 0 auto;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 100;
 }
 
 .box2{
     height: 600px;
     width: 500px;
-    margin-top: 100px;
-    margin-left: 60%;
+    float: right;
 }
 
 .kortInfo{
     background-color: rgba(1,158,226,0.7);
     height: 400px;
     width: 500px;
-    margin-bottom: 40px;
     border-radius: 20px;
 }
 
