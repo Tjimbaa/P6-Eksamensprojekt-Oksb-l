@@ -60,6 +60,17 @@ body {
 
 /***************** HJEM ********************/
 
+.titlePic {
+  background-image: url("../img/logo.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: grid;
+  justify-self: center;
+  width: 350px;
+  height: 200px;
+  margin-left: 200px;
+}
+
 .hjemtitle {
   background-color: #e1d4cd;
   display: grid;
@@ -71,21 +82,56 @@ body {
   color: #ffffff;
   font-weight: 100;
   font-family: arial;
-  justify-items: center;
+  justify-self: center;
   text-transform: uppercase;
+  margin-left: 200px;
 }
 
-.hjemtitle img {
+/************ MAIN TITLE FARVER **************/
+
+.maintitlefarver {
+  background-color: #daebff;
   display: grid;
-  width: 30%;
-  justify-content: center;
 }
+
+.maintitlefarver h2 {
+  margin: 2% 0 2% 26.5%;
+  font-size: 30px;
+  font-weight: 100;
+  font-family: sans-serif;
+}
+
+/************* SUB MAIN FARVER ******************/
 
 .farver {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 10px;
   background-color: #daebff;
   font-family: sans-serif;
   margin-bottom: 10%;
+  margin: 0 4% 2% 19%;
+}
+
+.box {
+  padding: 0 0 0 20px;
+  margin: 9% 0 10% 25%;
+}
+
+.blue {
+  background-color: #5a94c8;
+  padding: 40px;
+  width: 20%;
+}
+
+.green {
+  background-color: #5ac869;
+  padding: 40px;
+  width: 20%;
+}
+
+.orange {
+  background-color: #fcc962;
+  padding: 40px;
+  width: 20%;
 }

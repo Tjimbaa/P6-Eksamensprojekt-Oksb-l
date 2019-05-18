@@ -1,560 +1,566 @@
-*{
-    padding: 0;
-    margin: 0;
-    scroll-behavior: smooth;
+* {
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
 }
 
 /*----------------------------------------------HEADER-----------------------------------------*/
 
-header{
-    background: #fff;
-    width: 100%;
-    height: 120px;
-    position: fixed;
-    z-index: 1;
+header {
+  background: #fff;
+  width: 100%;
+  height: 120px;
+  position: fixed;
+  z-index: 1;
 }
 
-.logo{
-    float: left;
+.logo {
+  float: left;
 }
 
-.logo img{
-    padding: 10%;
-    width: 300px;
+.logo img {
+  padding: 10%;
+  width: 300px;
 }
 
-.nav-menu{  
-    float: right;
+.nav-menu {
+  float: right;
 }
 
-.nav-menu a{
-    float: left;
-    display: block;
-    color: #333;
-    text-decoration: none;
-    text-align: center;
-    padding: 45px 40px;
-    font-size: 26px;
+.nav-menu a {
+  float: left;
+  display: block;
+  color: #333;
+  text-decoration: none;
+  text-align: center;
+  padding: 45px 40px;
+  font-size: 26px;
 }
 
-.nav-menu a:hover{
-    background: #333;
-    color: #fff;
+.nav-menu a:hover {
+  background: #333;
+  color: #fff;
 }
 
-.nav-menu img{
-    width: 160px;
-    padding-left: 40px;
+.nav-menu img {
+  width: 160px;
+  padding-left: 40px;
 }
 
 /*--------------------------INDEX SECTION 1-----------------------------------------*/
 
-.bg{
-    background-image: url("../img/104.jpg");
-    height: 100vh;
-    background-size: cover;
+.bg {
+  background-image: url("../img/104.jpg");
+  height: 100vh;
+  background-size: cover;
 }
 
-.boxes{
-    height: 85vh;
-    width: 100%;
-    margin-top: 120px;
-    float: left;
+.boxes {
+  height: 85vh;
+  width: 100%;
+  margin-top: 120px;
+  float: left;
 }
 
-.wrapper1{
-    padding-top: 120px;
-    width: 1500px;
-    margin: 0 auto;
+.wrapper1 {
+  padding-top: 120px;
+  width: 1500px;
+  margin: 0 auto;
 }
 
-.box1{
-    float: left;
+.box1 {
+  float: left;
 }
 
-.titel{
-    background-color: rgba(1,158,226,0.7);
-    height: 190px;
-    width: 620px;
-    margin-bottom: 40px;
-    border-radius: 20px;
+.titel {
+  background-color: rgba(1, 158, 226, 0.7);
+  height: 190px;
+  width: 620px;
+  margin-bottom: 40px;
+  border-radius: 20px;
 }
 
-.titel h2{
-    text-align: center;
-    color: #ffffff;
-    font-size: 42px;
-    padding: 10px 0;
+.titel h2 {
+  text-align: center;
+  color: #ffffff;
+  font-size: 42px;
+  padding: 10px 0;
 }
 
-.titel p{
-    text-align: center;
-    width: 470px;
-    margin: 0 auto;
-    color: #ffffff;
-    font-size: 24px;
-    font-weight: 100;
+.titel p {
+  text-align: center;
+  width: 470px;
+  margin: 0 auto;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 100;
 }
 
-.box2{
-    height: 600px;
-    width: 500px;
-    float: right;
+.box2 {
+  height: 600px;
+  width: 500px;
+  float: right;
 }
 
-.kortInfo{
-    background-color: rgba(1,158,226,0.7);
-    height: 400px;
-    width: 500px;
-    border-radius: 20px;
+.kortInfo {
+  background-color: rgba(1, 158, 226, 0.7);
+  height: 400px;
+  width: 500px;
+  border-radius: 20px;
 }
 
-.kortInfo h2{
-    padding: 30px 50px;
-    color: #ffffff;
-    font-size: 28px;
-    font-weight: 100;
+.kortInfo h2 {
+  padding: 30px 50px;
+  color: #ffffff;
+  font-size: 28px;
+  font-weight: 100;
 }
 
-.kortInfo p{
-    padding: 0px 50px;
-    color: #ffffff;
-    font-size: 24px;
-    font-weight: 100;
+.kortInfo p {
+  padding: 0px 50px;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 100;
 }
 
-.book{
-    background-color: #4CAF50;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 24px;
-    cursor: pointer;
-    /* Koden forneden er for at centre button */
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 10px;
+.book {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+  cursor: pointer;
+  /* Koden forneden er for at centre button */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
 }
 
 /*-----------------------------INDEX SECTION 2-----------------------------------------*/
 
-.information{
-    color: #019EE2;
-    padding: 100px 0px;
-    font-size: 80px;
-    font-weight: 900;
+.information {
+  color: #019ee2;
+  padding: 100px 0px;
+  font-size: 80px;
+  font-weight: 900;
 }
 
-.filler{
-    margin: 0px 0px 50px 300px;
-    width: 800px;
-    height: 550px;
+.filler {
+  margin: 0px 0px 50px 300px;
+  width: 800px;
+  height: 550px;
 }
 
-.cirkel{
-    width: 40px;
-    height: 40px;
-    margin: 120px 28px 0;
-    border: solid 2px #fff;
-    border-radius: 100px;
-    position: absolute;
-} 
-
-.cirkel1{
-    width: 40px;
-    height: 40px;
-    margin: 65px 28px 0;
-    border: solid 2px #fff;
-    border-radius: 100px;
-    position: absolute;
+.cirkel {
+  width: 40px;
+  height: 40px;
+  margin: 120px 28px 0;
+  border: solid 2px #fff;
+  border-radius: 100px;
+  position: absolute;
 }
 
-.wrapper{
-    width: 1300px;
-    margin: 0 auto;
+.cirkel1 {
+  width: 40px;
+  height: 40px;
+  margin: 65px 28px 0;
+  border: solid 2px #fff;
+  border-radius: 100px;
+  position: absolute;
+}
+
+.wrapper {
+  width: 1300px;
+  margin: 0 auto;
 }
 
 /* LÆRING */
 
-.picBox{
-    background-image: url("../img/L%C3%A6ring.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin: 0px 0px 50px 0px;
-    width: 900px;
-    height: 550px;
+.picBox {
+  background-image: url("../img/L%C3%A6ring.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0px 0px 50px 0px;
+  width: 900px;
+  height: 550px;
 }
 
-.infoBox{
-    background-color: #f3f3f3;
-    margin: 275px 0px 0px 600px;
-    width: 600px;
-    height: 275px;
-    position: absolute;
+.infoBox {
+  background-color: #f3f3f3;
+  margin: 275px 0px 0px 600px;
+  width: 600px;
+  height: 275px;
+  position: absolute;
 }
 
-.infoBox p, h2{
-    float: left;
+.infoBox p,
+h2 {
+  float: left;
 }
 
-.infoBox h2{
-    color: #019EE2;
-    padding: 50px 0px 20px 50px;
-    font-size: 50px;
-    font-weight: 100;
+.infoBox h2 {
+  color: #019ee2;
+  padding: 50px 0px 20px 50px;
+  font-size: 50px;
+  font-weight: 100;
 }
 
-.infoBox p{
-    clear: both;
-    padding: 0px 50px 0px 50px;
-    font-size: 20px;
+.infoBox p {
+  clear: both;
+  padding: 0px 50px 0px 50px;
+  font-size: 20px;
 }
 
-.mereInfo{
-    background-color: #019EE2;
-    margin: 0px 0px 0px 600px;
-    width: 100px;
-    height: 275px;
+.mereInfo {
+  background-color: #019ee2;
+  margin: 0px 0px 0px 600px;
+  width: 100px;
+  height: 275px;
 }
 
 /* AKTIVITETER */
 
-.picBox2{
-    background-image: url("../img/lonely-planet-973277-unsplash.jpg");
-    background-size: 100%;
-    background-position: 0% 70%;
-    margin: 0px 0% 50px 0px;
-    width: 900px;
-    height: 550px;
-    float: right;
+.picBox2 {
+  background-image: url("../img/lonely-planet-973277-unsplash.jpg");
+  background-size: 100%;
+  background-position: 0% 70%;
+  margin: 0px 0% 50px 0px;
+  width: 900px;
+  height: 550px;
+  float: right;
 }
 
-.infoBox2{
-    background-color: #f3f3f3;
-    margin: 275px 600px 0px 0px;
-    width: 700px;
-    height: 275px;
-    float: right;
+.infoBox2 {
+  background-color: #f3f3f3;
+  margin: 275px 600px 0px 0px;
+  width: 700px;
+  height: 275px;
+  float: right;
 }
 
-.infoBox2 p, h2{
-    float: left;
+.infoBox2 p,
+h2 {
+  float: left;
 }
 
-.infoBox2 h2{
-    color: #75902E;
-    padding: 50px 0px 20px 150px;
-    font-size: 50px;
-    font-weight: 100;
+.infoBox2 h2 {
+  color: #75902e;
+  padding: 50px 0px 20px 150px;
+  font-size: 50px;
+  font-weight: 100;
 }
 
-.infoBox2 p{
-    clear: both;
-    padding: 0px 50px 0px 150px;
-    font-size: 20px;
+.infoBox2 p {
+  clear: both;
+  padding: 0px 50px 0px 150px;
+  font-size: 20px;
 }
 
-.mereInfo2{
-    background-color: #75902E;
-    margin: 0px 0px 0px 0px;
-    width: 100px;
-    height: 275px;
-    float: right;
-    position: absolute;
+.mereInfo2 {
+  background-color: #75902e;
+  margin: 0px 0px 0px 0px;
+  width: 100px;
+  height: 275px;
+  float: right;
+  position: absolute;
 }
 
 /* FACILITETER */
 
-.picBox3{
-    background-image: url("../img/106.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin: 0px 0px 50px 0px;
-    width: 900px;
-    height: 550px;
+.picBox3 {
+  background-image: url("../img/106.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0px 0px 50px 0px;
+  width: 900px;
+  height: 550px;
 }
 
-.infoBox3{
-    background-color: #f3f3f3;
-    margin: 275px 0px 0px 600px;
-    width: 600px;
-    height: 275px;
-    position: absolute;
+.infoBox3 {
+  background-color: #f3f3f3;
+  margin: 275px 0px 0px 600px;
+  width: 600px;
+  height: 275px;
+  position: absolute;
 }
 
-.infoBox3 p, h2{
-    float: left;
+.infoBox3 p,
+h2 {
+  float: left;
 }
 
-.infoBox3 h2{
-    color: #FCC962;
-    padding: 50px 0px 20px 50px;
-    font-size: 50px;
-    font-weight: 100;
+.infoBox3 h2 {
+  color: #fcc962;
+  padding: 50px 0px 20px 50px;
+  font-size: 50px;
+  font-weight: 100;
 }
 
-.infoBox3 p{
-    clear: both;
-    padding: 0px 50px 0px 50px;
-    font-size: 20px;
+.infoBox3 p {
+  clear: both;
+  padding: 0px 50px 0px 50px;
+  font-size: 20px;
 }
 
-.mereInfo3{
-    background-color: #FCC962;
-    margin: 0px 0px 0px 600px;
-    width: 100px;
-    height: 275px;
+.mereInfo3 {
+  background-color: #fcc962;
+  margin: 0px 0px 0px 600px;
+  width: 100px;
+  height: 275px;
 }
 
 /* KONTAKT OS */
 
-
-.picBox4{
-    background-image: url("../img/adult-business-businessman-2182970.jpg");
-    background-size: 100%;
-    background-position: 0% 10%;
-    margin: 0px 0px 50px 0px;
-    float: right;
-    width: 900px;
-    height: 550px;
+.picBox4 {
+  background-image: url("../img/adult-business-businessman-2182970.jpg");
+  background-size: 100%;
+  background-position: 0% 10%;
+  margin: 0px 0px 50px 0px;
+  float: right;
+  width: 900px;
+  height: 550px;
 }
 
-.infoBox4{
-    background-color: #f3f3f3;
-    margin: 275px 600px 0px 0px;
-    width: 700px;
-    height: 275px;
-    float: right;
+.infoBox4 {
+  background-color: #f3f3f3;
+  margin: 275px 600px 0px 0px;
+  width: 700px;
+  height: 275px;
+  float: right;
 }
 
-.infoBox4 p, h2{
-    float: left;
+.infoBox4 p,
+h2 {
+  float: left;
 }
 
-.infoBox4 h2{
-    color: #75902E;
-    padding: 50px 0px 20px 150px;
-    font-size: 50px;
-    font-weight: 100;
+.infoBox4 h2 {
+  color: #75902e;
+  padding: 50px 0px 20px 150px;
+  font-size: 50px;
+  font-weight: 100;
 }
 
-.infoBox4 p{
-    clear: both;
-    padding: 0px 50px 0px 150px;
-    font-size: 20px;
+.infoBox4 p {
+  clear: both;
+  padding: 0px 50px 0px 150px;
+  font-size: 20px;
 }
 
-.mereInfo4{
-    background-color: #75902E;
-    margin: 0px 550px 0px 0px;
-    width: 100px;
-    height: 275px;
-    position: absolute;
-    float: right;
+.mereInfo4 {
+  background-color: #75902e;
+  margin: 0px 550px 0px 0px;
+  width: 100px;
+  height: 275px;
+  position: absolute;
+  float: right;
 }
 
 /*-----------------UNDERSIDE LÆRING-----------------------------------------*/
 
 /*-------------------LÆRING SECTION 1-----------------------------------------*/
 
-.bglaering{
-    background-image: url("../img/thomas-kelley-128626-unsplash.jpg");
-    height: 100vh;
-    background-size: cover;
+.bglaering {
+  background-image: url("../img/thomas-kelley-128626-unsplash.jpg");
+  height: 100vh;
+  background-size: cover;
 }
 
 /*-------------------LÆRING SECTION 2-----------------------------------------*/
-.wrapper2{
-    width: 1400px;
-    margin: 0 auto;
+.wrapper2 {
+  width: 1400px;
+  margin: 0 auto;
 }
 
 /* FLYGTNINGE MUSEUM */
 
-.picLaering{
-    background-image: url("../img/L%C3%A6ring.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin: 0px 250px 50px 0px;
-    width: 35%;
-    height: 350px;
-    float: left;
+.picLaering {
+  background-image: url("../img/L%C3%A6ring.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0px 250px 50px 0px;
+  width: 35%;
+  height: 350px;
+  float: left;
 }
 
-.LaeringBox{
-    background-color: #f3f3f3;
-    margin: 175px 0px 0px 250px;
-    width: 325px;
-    height: 175px;
-    position: absolute;
+.LaeringBox {
+  background-color: #f3f3f3;
+  margin: 175px 0px 0px 250px;
+  width: 325px;
+  height: 175px;
+  position: absolute;
 }
 
-.LaeringBox p, h2{
-    float: left;
+.LaeringBox p,
+h2 {
+  float: left;
 }
 
-.LaeringBox h2{
-    color: #019EE2;
-    padding: 30px 0px 20px 30px;
-    font-size: 30px;
-    font-weight: 100;
+.LaeringBox h2 {
+  color: #019ee2;
+  padding: 30px 0px 20px 30px;
+  font-size: 30px;
+  font-weight: 100;
 }
 
-.LaeringBox p{
-    clear: both;
-    padding: 0px 30px 0px 30px;
-    font-size: 18px;
+.LaeringBox p {
+  clear: both;
+  padding: 0px 30px 0px 30px;
+  font-size: 18px;
 }
 
-.laeringInfo{
-    background-color: #019EE2;
-    margin: 0px 0px 0px 325px;
-    width: 100px;
-    height: 175px;
+.laeringInfo {
+  background-color: #019ee2;
+  margin: 0px 0px 0px 325px;
+  width: 100px;
+  height: 175px;
 }
 
 /* FLYGTNING UDSIGTSTÅRN */
 
-.picLaering2{
-    background-image: url("../img/Danmarks-Flygtninge-Museum-t%C3%A5rn-1024x575.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    margin: 0px 0px 50px 0px;
-    width: 35%;
-    height: 350px;
-    float: left;
+.picLaering2 {
+  background-image: url("../img/Danmarks-Flygtninge-Museum-t%C3%A5rn-1024x575.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0px 0px 50px 0px;
+  width: 35%;
+  height: 350px;
+  float: left;
 }
 
-.LaeringBox2{
-    background-color: #f3f3f3;
-    margin: 175px 0px 0px 250px;
-    width: 325px;
-    height: 175px;
-    position: absolute;
+.LaeringBox2 {
+  background-color: #f3f3f3;
+  margin: 175px 0px 0px 250px;
+  width: 325px;
+  height: 175px;
+  position: absolute;
 }
 
-.LaeringBox2 p, h2{
-    float: left;
+.LaeringBox2 p,
+h2 {
+  float: left;
 }
 
-.LaeringBox2 h2{
-    color: #75902E;
-    padding: 30px 0px 20px 30px;
-    font-size: 30px;
-    font-weight: 100;
+.LaeringBox2 h2 {
+  color: #75902e;
+  padding: 30px 0px 20px 30px;
+  font-size: 30px;
+  font-weight: 100;
 }
 
-.LaeringBox2 p{
-    clear: both;
-    padding: 0px 30px 0px 30px;
-    font-size: 18px;
+.LaeringBox2 p {
+  clear: both;
+  padding: 0px 30px 0px 30px;
+  font-size: 18px;
 }
 
-.laeringInfo2{
-    background-color: #75902E;
-    margin: 0px 0px 0px 325px;
-    width: 100px;
-    height: 175px;
+.laeringInfo2 {
+  background-color: #75902e;
+  margin: 0px 0px 0px 325px;
+  width: 100px;
+  height: 175px;
 }
 
 /* FLYGTNINGELEJR */
 
-.picLaering3{
-    background-image: url("../img/jesse-orrico-487694-unsplash.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin: 0px 250px 50px 0px;
-    width: 35%;
-    height: 350px;
-    float: left;
+.picLaering3 {
+  background-image: url("../img/jesse-orrico-487694-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0px 250px 50px 0px;
+  width: 35%;
+  height: 350px;
+  float: left;
 }
 
-.LaeringBox3{
-    background-color: #f3f3f3;
-    margin: 175px 0px 0px 250px;
-    width: 325px;
-    height: 175px;
-    position: absolute;
+.LaeringBox3 {
+  background-color: #f3f3f3;
+  margin: 175px 0px 0px 250px;
+  width: 325px;
+  height: 175px;
+  position: absolute;
 }
 
-.LaeringBox3 p, h2{
-    float: left;
+.LaeringBox3 p,
+h2 {
+  float: left;
 }
 
-.LaeringBox3 h2{
-    color: #FCC962;
-    padding: 30px 0px 20px 30px;
-    font-size: 30px;
-    font-weight: 100;
+.LaeringBox3 h2 {
+  color: #fcc962;
+  padding: 30px 0px 20px 30px;
+  font-size: 30px;
+  font-weight: 100;
 }
 
-.LaeringBox3 p{
-    clear: both;
-    padding: 0px 30px 0px 30px;
-    font-size: 18px;
+.LaeringBox3 p {
+  clear: both;
+  padding: 0px 30px 0px 30px;
+  font-size: 18px;
 }
 
-.laeringInfo3{
-    background-color: #FCC962;
-    margin: 0px 0px 0px 325px;
-    width: 100px;
-    height: 175px;
+.laeringInfo3 {
+  background-color: #fcc962;
+  margin: 0px 0px 0px 325px;
+  width: 100px;
+  height: 175px;
 }
 
 /*-----------------UNDERSIDE AKTIVITETER-----------------------------------------*/
 
 /*-------------------AKTIVITETER SECTION 1-----------------------------------------*/
 
-.bgaktiv{
-    background-image: url("../img/anna-samoylova-535880-unsplash.jpg");
-    height: 100vh;
-    background-size: cover;
+.bgaktiv {
+  background-image: url("../img/anna-samoylova-535880-unsplash.jpg");
+  height: 100vh;
+  background-size: cover;
 }
 
-.aktivInfo{
-    background-color: rgba(1,158,226,0.7);
-    height: 400px;
-    width: 500px;
-    border-radius: 20px;
-    margin-bottom: 20px;
+.aktivInfo {
+  background-color: rgba(1, 158, 226, 0.7);
+  height: 400px;
+  width: 500px;
+  border-radius: 20px;
+  margin-bottom: 20px;
 }
 
-.aktivInfo h2{
-    text-align: center;
-    color: #ffffff;
-    font-size: 42px;
-    padding: 10px 0;
+.aktivInfo h2 {
+  text-align: center;
+  color: #ffffff;
+  font-size: 42px;
+  padding: 10px 0;
 }
 
-.aktivInfo p{
-    padding: 0px 50px;
-    color: #ffffff;
-    font-size: 24px;
-    font-weight: 100;
+.aktivInfo p {
+  padding: 0px 50px;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 100;
 }
 
 /*-------------------AKTIVITETER SECTION 2-----------------------------------------*/
 
-.picAktiv{
-    background-image: url("../img/135.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin: 0px 0px 50px 0px;
-    width: 900px;
-    height: 550px;
+.picAktiv {
+  background-image: url("../img/135.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0px 0px 50px 0px;
+  width: 900px;
+  height: 550px;
 }
 
-.picAktiv2{
-    background-image: url("../img/71.jpg");
-    background-size: 100%;
-    background-position: 0% 70%;
-    margin: 0px 0% 50px 0px;
-    width: 900px;
-    height: 550px;
-    float: right;
+.picAktiv2 {
+  background-image: url("../img/71.jpg");
+  background-size: 100%;
+  background-position: 0% 70%;
+  margin: 0px 0% 50px 0px;
+  width: 900px;
+  height: 550px;
+  float: right;
 }
