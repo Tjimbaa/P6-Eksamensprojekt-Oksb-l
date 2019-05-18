@@ -92,13 +92,14 @@ body {
 .maintitlefarver {
   background-color: #daebff;
   display: grid;
+  margin: 0 4% 0 19%;
 }
 
 .maintitlefarver h2 {
-  margin: 2% 0 2% 26.5%;
   font-size: 30px;
   font-weight: 100;
   font-family: sans-serif;
+  margin: 2% 0 0 10%;
 }
 
 /************* SUB MAIN FARVER ******************/
@@ -109,8 +110,8 @@ body {
   grid-gap: 10px;
   background-color: #daebff;
   font-family: sans-serif;
-  margin-bottom: 10%;
-  margin: 0 4% 2% 19%;
+  margin-bottom: 20%;
+  margin: 0 4% 0 19%;
 }
 
 .box {
@@ -134,4 +135,25 @@ body {
   background-color: #fcc962;
   padding: 40px;
   width: 20%;
+}
+
+.darkGreen {
+  background-color: #75902e;
+  padding: 40px;
+  width: 20%;
+}
+
+/* IKONER SEKTION */
+
+.ikonermaintitle {
+  background-color: #daebff;
+  display: grid;
+  margin: 0 4% 0 19%;
+}
+
+.ikonermaintitle h2 {
+  font-size: 30px;
+  font-weight: 100;
+  font-family: sans-serif;
+  margin: 2% 0 0 10%;
 }
