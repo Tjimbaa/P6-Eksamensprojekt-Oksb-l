@@ -216,7 +216,6 @@ body {
   background-color: #daebff;
   display: grid;
   grid-template-columns: 1fr;
-  margin-bottom: 10%;
 }
 
 .mainikontitle h2 {
@@ -224,6 +223,22 @@ body {
   font-size: 30px;
   font-weight: 100;
   margin-top: 5%;
+}
+
+.subikontitle {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+  background-color: #daebff;
+  font-family: sans-serif;
+  margin-bottom: 10%;
+}
+
+.subikontitle h3 {
+  margin: 3% 0% 2% 17.8%;
+  font-size: 30px;
+  font-weight: 100;
+  font-family: sans-serif;
 }
 
 /********* KNAPPER SEKTION *************/
