@@ -1,71 +1,129 @@
+<!DOCTYPE html>
 <html lang="da">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Style Guide</title>
     <link rel="stylesheet" href="css/styleguide.css" />
+    <title>Online Style Guide</title>
   </head>
-  <body></body>
-  <div class="vertical-menu sidebar">
-    <a href="#hjem" class="active">Hjem</a>
-    <a href="#farver">Farver</a>
-    <a href="#ikoner">Ikoner</a>
-    <a href="#typografi">Typografi</a>
-    <a href="#tos">Tone of voice</a>
-    <a href="#illustrationsstil">Illustrationsstil</a>
-  </div>
-  <main>
-    <!----------- LOGO + TITLE ---------------->
-    <section class="hjem" id="hjem">
-      <div class="hjemtitle">
-        <h1>
-          Style Guide
-        </h1>
-        <div class="titlePic"></div>
-      </div>
-    </section>
-  </main>
-  <!---------------- FAVER SEKTION ------------>
-  <section class="maintitlefarver">
-    <h2>
-      Farver
-    </h2>
-  </section>
-  <section class="farver">
-    <div class="box">
-      <div class="blue"></div>
-      <h3>Blue</h3>
-      <p>#5A94C8</p>
+  <body>
+    <div class="vertical-menu sidebar">
+      <a href="#hjem">Hjem</a>
+      <a href="#farver">Farver</a>
+      <a href="#typografi">Typografi</a>
+      <a href="#ikoner">Ikoner</a>
+      <a href="#knapper">Knapper</a>
+      <a href="#knapper">Input Felter</a>
+      <a href="#tos">Tone of voice</a>
     </div>
-    <div class="box">
-      <div class="green"></div>
-      <h3>Green</h3>
-      <p>#5AC869</p>
-    </div>
-    <div class="box">
-      <div class="orange"></div>
-      <h3>Orange</h3>
-      <p>#FEE238</p>
-    </div>
-    <div class="box">
-      <div class="darkGreen"></div>
-      <h3>Dark Green</h3>
-      <p>#75902E</p>
-    </div>
-    <div class="box">
-      <div class="cyan"></div>
-      <h3>Cyan</h3>
-      <p>#D3584A</p>
-    </div>
-    <div class="box">
-      <div class="cyan"></div>
-      <h3>Cyan</h3>
-      <p>#D3584A</p>
-    </div>
-  </section>
-  <!------------------- IKONER SEKTION ------------->
-  <section class="ikonermaintitle">
-    <h2>Ikoner</h2>
-  </section>
+    <main class="main">
+      <!--------------- HJEM SEKTION -------------->
+
+      <section class="hjem" id="hjem">
+        <div class="hjemtitle">
+          <img src="img/logo-farver.svg" alt="" />
+          <h1>
+            Style Guide
+          </h1>
+        </div>
+      </section>
+
+      <!--------------- FARVER SEKTION --------->
+      <section class="maintitlefarver">
+        <h2>
+          Farver
+        </h2>
+      </section>
+      <section class="farver" id="farver">
+        <div class="box">
+          <div class="blue"></div>
+          <h3>Blue</h3>
+          <p>#5A94C8</p>
+        </div>
+        <div class="box">
+          <div class="green"></div>
+          <h3>Green</h3>
+          <p>#5AC869</p>
+        </div>
+        <div class="box">
+          <div class="darkgreen"></div>
+          <h3>Dark Green</h3>
+          <p>#75902e</p>
+        </div>
+        <div class="box">
+          <div class="orange"></div>
+          <h3>Soft Orange</h3>
+          <p>#FCC962</p>
+        </div>
+
+        <div class="box">
+          <div class="lightgray"></div>
+          <h3>Light Gray</h3>
+          <p>#F8F8F8</p>
+        </div>
+        <div class="box">
+          <div class="lightgrayish"></div>
+          <h3>Light Grayish Blue</h3>
+          <p>#C3D2DB</p>
+        </div>
+        <div class="box">
+          <div class="limegreen"></div>
+          <h3>Lime Green</h3>
+          <p>#86DE92</p>
+        </div>
+        <div class="box">
+          <div class="softyellow"></div>
+          <h3>Soft Yellow</h3>
+          <p>#FDF192</p>
+        </div>
+        <div class="box">
+          <div class="strongcyan"></div>
+          <h3>Strong Cyan</h3>
+          <p>#BC3018</p>
+        </div>
+      </section>
+
+      <!-------------- TYPOGRAFI SEKTION ------------->
+
+      <section class="maintypotitle" id="typografi">
+        <h2>Typografi</h2>
+      </section>
+      <section class="subtypotitle">
+        <div>
+          <p>
+            Baggrunden til landingsområdet viser det aktuelle vejr fra kl. 24.00
+            til kl. 15.00. <br />Efter kl 15.00 viser det morgendagens vejr.
+            <br />Baggrunden ændrer sig i takt med årstidernes skiften.
+          </p>
+        </div>
+        <div>
+          <img src="img/backgrounds/cloud-4.png" alt="sky billede" />
+        </div>
+      </section>
+      <!-------------- IKONER SEKTION -------–-->
+      <section class="mainikontitle">
+        <h2>
+          Ikoner
+        </h2>
+      </section>
+      <!------------ KNAPPER SEKTION --------------->
+      <section class="mainknaptitle">
+        <h2>
+          Knapper
+        </h2>
+      </section>
+      <!------------- FORM ELEMENTER ------------>
+      <section class="maininputtitle">
+        <h2>
+          Input Felter
+        </h2>
+      </section>
+      <!----------- TONE OF VOCIE ----------------->
+      <section class="maintostitle">
+        <h2>
+          Tone Of Voice
+        </h2>
+      </section>
+      <section class="subtostitle"></section>
+    </main>
+  </body>
 </html>

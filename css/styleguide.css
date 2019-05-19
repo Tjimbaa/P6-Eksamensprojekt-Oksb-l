@@ -58,18 +58,7 @@ body {
   background-color: #e1d4cd;
 }
 
-/***************** HJEM ********************/
-
-.titlePic {
-  background-image: url("../img/logo.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-  display: grid;
-  justify-self: center;
-  width: 350px;
-  height: 200px;
-  margin-left: 200px;
-}
+/************ HJEM SEKTION ************/
 
 .hjemtitle {
   background-color: #e1d4cd;
@@ -78,45 +67,47 @@ body {
 
 .hjemtitle h1 {
   display: grid;
+  margin: 0% 0 40% 0;
   font-size: 50px;
   color: #ffffff;
   font-weight: 100;
   font-family: arial;
-  justify-self: center;
+  justify-items: center;
   text-transform: uppercase;
-  margin-left: 200px;
 }
 
-/************ MAIN TITLE FARVER **************/
+.hjemtitle img {
+  width: 40%;
+  margin: 25% 0 0 30.5%;
+}
+
+/**************  FARVER SEKTION ***************/
 
 .maintitlefarver {
   background-color: #daebff;
   display: grid;
-  margin: 0 4% 0 19%;
+  grid-template-columns: 1fr;
 }
 
 .maintitlefarver h2 {
+  margin: 6% 0 2% 8.8%;
   font-size: 30px;
   font-weight: 100;
   font-family: sans-serif;
-  margin: 2% 0 0 10%;
 }
-
-/************* SUB MAIN FARVER ******************/
 
 .farver {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 10px;
   background-color: #daebff;
   font-family: sans-serif;
-  margin-bottom: 20%;
-  margin: 0 4% 0 19%;
+  margin-bottom: 10%;
 }
 
 .box {
   padding: 0 0 0 20px;
-  margin: 9% 0 10% 25%;
+  margin: 9% 0 10% 30%;
 }
 
 .blue {
@@ -131,29 +122,153 @@ body {
   width: 20%;
 }
 
+.darkgreen {
+  background-color: #75902e;
+  padding: 40px;
+  width: 20%;
+}
+
 .orange {
   background-color: #fcc962;
   padding: 40px;
   width: 20%;
 }
 
-.darkGreen {
-  background-color: #75902e;
+.lightgray {
+  background-color: #f8f8f8;
   padding: 40px;
   width: 20%;
 }
 
-/* IKONER SEKTION */
-
-.ikonermaintitle {
-  background-color: #daebff;
-  display: grid;
-  margin: 0 4% 0 19%;
+.lightgrayish {
+  background-color: #c3d2db;
+  padding: 40px;
+  width: 20%;
 }
 
-.ikonermaintitle h2 {
+.limegreen {
+  background-color: #86de92;
+  padding: 40px;
+  width: 20%;
+}
+
+.softyellow {
+  background-color: #fdf192;
+  padding: 40px;
+  width: 20%;
+}
+
+.strongcyan {
+  background-color: #bc3018;
+  padding: 40px;
+  width: 20%;
+}
+
+.farver h3 {
+  color: #0c0c0c;
+  font-weight: 400;
+}
+
+.farver p {
+  color: #0c0c0c;
+  font-weight: 100;
+}
+
+/***************** TYPOGRAFI SEKTION **************/
+
+.maintypotitle {
+  background-color: #426178;
+  display: grid;
+  grid-template-columns: 1fr;
+  font-family: sans-serif;
+}
+
+.maintypotitle h2 {
+  margin: 3% 0 2% 8.8%;
+  font-size: 30px;
+  color: #ffffff;
+  font-weight: 100;
+  margin-top: 5%;
+}
+
+.subtypotitle {
+  background-color: #426178;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-family: sans-serif;
+  margin-bottom: 10%;
+}
+
+.subtypotitle p {
+  width: 50%;
+  color: #ffffff;
+  margin: 0 0 10px 18%;
+}
+
+.subtypotitle img {
+  width: 60%;
+  margin: -13% 0 10% 15%;
+}
+
+/*************** IKONER SEKTION ****************/
+
+.mainikontitle {
+  background-color: #daebff;
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-bottom: 10%;
+}
+
+.mainikontitle h2 {
+  margin: 3% 0 2% 8.8%;
   font-size: 30px;
   font-weight: 100;
-  font-family: sans-serif;
-  margin: 2% 0 0 10%;
+  margin-top: 5%;
+}
+
+/********* KNAPPER SEKTION *************/
+
+.mainknaptitle {
+  background-color: #daebff;
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-bottom: 10%;
+}
+
+.mainknaptitle h2 {
+  margin: 3% 0 2% 8.8%;
+  font-size: 30px;
+  font-weight: 100;
+  margin-top: 5%;
+}
+
+/************* INPUT FELTER SEKTION ***************/
+
+.maininputtitle {
+  background-color: #daebff;
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-bottom: 10%;
+}
+
+.maininputtitle h2 {
+  margin: 3% 0 2% 8.8%;
+  font-size: 30px;
+  font-weight: 100;
+  margin-top: 5%;
+}
+
+/********** TONE OF VOICE SEKTION  **************/
+
+.maintostitle {
+  background-color: #daebff;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.maintostitle h2 {
+  margin: 3% 0 2% 8.8%;
+  font-size: 30px;
+  font-weight: 100;
+  margin-top: 5%;
 }
