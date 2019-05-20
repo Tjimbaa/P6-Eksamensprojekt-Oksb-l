@@ -787,4 +787,16 @@ h2 {
       height: 175px;
     }
 
+/*-------------------AKTIVITETER SECTION 2-----------------------------------------*/
+
+    .picAktiv {
+      width: 500px;
+      height: 350px
+    }
+    
+    .picAktiv2 {
+        background-size: cover;
+        width: 500px;
+        height: 350px
+    }
 }
