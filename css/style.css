@@ -38,8 +38,9 @@ header {
 }
 
 .nav-menu a:hover {
-  background: #333;
+  background: #5A94C8;
   color: #fff;
+    border-radius: 5px;
 }
 
 .nav-menu img {
@@ -584,7 +585,7 @@ h2 {
     }
     
     .nav-menu a {
-      padding: 40px 25px;
+      padding: 38.5px 25px;
       font-size: 20px;
     }
     
