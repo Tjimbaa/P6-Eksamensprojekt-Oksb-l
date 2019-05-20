@@ -641,15 +641,20 @@ h2 {
       font-weight: 100;
     }
     
+    .book {
+      font-size: 20px;
+    }
+
+    
 /*-----------------------------INDEX SECTION 2-----------------------------------------*/
 
     .information {
       padding: 50px 0px;
-      font-size: 60px;
+      font-size: 46px;
     }
 
     .cirkel {
-      margin: 90px 28px 0;
+      margin: 70px 28px 0;
     }
 
     .cirkel1 {
@@ -660,113 +665,126 @@ h2 {
       border-radius: 100px;
       position: absolute;
     }
+    
+    .filler {
+      width: 500px;
+      height: 350px;
+    }
 
     .wrapper {
-      width: 1100px;
+      width: 900px;
     }
 
     /* LÆRING */
 
     .picBox {
-      width: 600px;
-      height: 450px;
+      width: 500px;
+      height: 350px;
     }
 
     .infoBox {
-      margin: 225px 0px 0px 400px;
-      height: 225px;
+      margin: 175px 0px 0px 300px;
+      height: 175px;
+        width: 500px;
     }
 
     .infoBox h2 {
-      padding: 40px 0px 20px 40px;
-        font-size: 40px;
+      padding: 30px 0px 20px 30px;
+        font-size: 34px;
     }
 
     .infoBox p {
       clear: both;
-      padding: 0px 40px 0px 40px;
+      padding: 0px 30px 0px 30px;
       font-size: 20px;
     }
 
     .mereInfo {
-      height: 225px;
+      height: 175px;
+          margin: 0px 0px 0px 500px;
     }
 
     /* AKTIVITETER */
 
     .picBox2 {
-      width: 600px;
-      height: 450px;
+      width: 500px;
+      height: 350px
     }
 
     .infoBox2 {
-      margin: 225px 400px 0px 0px;
-      height: 225px;
+      margin: 175px 300px 0px 0px;
+      height: 175px;
+        width: 600px;
     }
 
     .infoBox2 h2 {
-      padding: 40px 0px 20px 140px;
-        font-size: 40px;
+      padding: 30px 0px 20px 130px;
+        font-size: 34px;
     }
 
     .infoBox2 p {
-      padding: 0px 40px 0px 140px;
+      padding: 0px 30px 0px 130px;
+        font-size: 20px;
     }
 
     .mereInfo2 {
-      height: 225px;
+      height: 175px;
     }
 
     /* FACILITETER */
 
     .picBox3 {
-      width: 600px;
-      height: 450px;
+      width: 500px;
+      height: 350px;
     }
 
     .infoBox3 {
-      margin: 225px 0px 0px 400px;
-      height: 225px;
+      margin: 175px 0px 0px 300px;
+      height: 175px;
+        width: 500px;
     }
 
     .infoBox3 h2 {
-      padding: 40px 0px 20px 40px;
-        font-size: 40px;
+      padding: 30px 0px 20px 30px;
+        font-size: 34px;
     }
 
     .infoBox3 p {
       clear: both;
-      padding: 0px 40px 0px 40px;
+      padding: 0px 30px 0px 30px;
       font-size: 20px;
     }
 
     .mereInfo3 {
-      height: 225px;
+      height: 175px;
+          margin: 0px 0px 0px 500px;
     }
 
     /* KONTAKT OS */
 
     .picBox4 {
-      width: 600px;
-      height: 450px;
+      width: 500px;
+      height: 350px
     }
 
     .infoBox4 {
-      margin: 225px 400px 0px 0px;
-      height: 225px;
+      margin: 175px 300px 0px 0px;
+      height: 175px;
+        width: 600px;
     }
 
     .infoBox4 h2 {
-      padding: 40px 0px 20px 140px;
-        font-size: 40px;
+      padding: 30px 0px 20px 130px;
+        font-size: 34px;
     }
 
     .infoBox4 p {
-      padding: 0px 40px 0px 140px;
+      padding: 0px 30px 0px 130px;
+        font-size: 20px;
     }
 
     .mereInfo4 {
-      height: 225px;
+      height: 175px;
     }
 
 }
