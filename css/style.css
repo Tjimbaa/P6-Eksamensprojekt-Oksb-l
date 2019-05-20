@@ -570,12 +570,181 @@ h2 {
 
 /*-------------------RESPONSIVE MEDIA QUERIES-----------------------------------------*/
 
+/* media queries for 13 inch monitor*/
+
 @media (min-width: 768px) and (max-width: 1400px) {
+    
+/*----------------------------------------------HEADER-----------------------------------------*/
     header {
-      background: #fff;
-      width: 100%;
-      height: 1110px;
-      position: fixed;
-      z-index: 1;
+      height: 100px;
     }
+    
+    .logo img {
+      width: 250px;
+    }
+    
+    .nav-menu a {
+      padding: 35px 25px;
+      font-size: 26px;
+    }
+    
+    .nav-menu img {
+      width: 130px;
+      padding-left: 40px;
+    }
+    
+/*--------------------------INDEX SECTION 1-----------------------------------------*/
+
+    .boxes {
+      margin-top: 100px;
+    }
+
+    .wrapper1 {
+      padding-top: 100px;
+      width: 1200px;
+    }
+
+    .titel {
+      width: 520px;
+      margin-bottom: 20px;
+      border-radius: 20px;
+    }
+
+    .box2 {
+      height: 320px;
+      width: 500px;
+    }
+
+    .kortInfo {
+      height: 350px;
+    }
+
+    .kortInfo h2 {
+      padding: 30px 50px 20px;
+    }
+    
+/*-----------------------------INDEX SECTION 2-----------------------------------------*/
+
+    .information {
+      padding: 50px 0px;
+      font-size: 60px;
+    }
+
+    .cirkel {
+      margin: 90px 28px 0;
+    }
+
+    .cirkel1 {
+      width: 40px;
+      height: 40px;
+      margin: 65px 28px 0;
+      border: solid 2px #fff;
+      border-radius: 100px;
+      position: absolute;
+    }
+
+    .wrapper {
+      width: 1100px;
+    }
+
+    /* LÆRING */
+
+    .picBox {
+      width: 600px;
+      height: 450px;
+    }
+
+    .infoBox {
+      margin: 225px 0px 0px 400px;
+      height: 225px;
+    }
+
+    .infoBox h2 {
+      padding: 20px 0px 20px 40px;
+    }
+
+    .infoBox p {
+      clear: both;
+      padding: 0px 40px 0px 40px;
+      font-size: 20px;
+    }
+
+    .mereInfo {
+      height: 225px;
+    }
+
+    /* AKTIVITETER */
+
+    .picBox2 {
+      width: 600px;
+      height: 450px;
+    }
+
+    .infoBox2 {
+      margin: 225px 400px 0px 0px;
+      height: 225px;
+    }
+
+    .infoBox2 h2 {
+      padding: 20px 0px 20px 140px;
+    }
+
+    .infoBox2 p {
+      padding: 0px 40px 0px 140px;
+    }
+
+    .mereInfo2 {
+      height: 225px;
+    }
+
+    /* FACILITETER */
+
+    .picBox3 {
+      width: 600px;
+      height: 450px;
+    }
+
+    .infoBox3 {
+      margin: 225px 0px 0px 400px;
+      height: 225px;
+    }
+
+    .infoBox3 h2 {
+      padding: 20px 0px 20px 40px;
+    }
+
+    .infoBox3 p {
+      clear: both;
+      padding: 0px 40px 0px 40px;
+      font-size: 20px;
+    }
+
+    .mereInfo3 {
+      height: 225px;
+    }
+
+    /* KONTAKT OS */
+
+    .picBox4 {
+      width: 600px;
+      height: 450px;
+    }
+
+    .infoBox4 {
+      margin: 225px 400px 0px 0px;
+      height: 225px;
+    }
+
+    .infoBox4 h2 {
+      padding: 20px 0px 20px 140px;
+    }
+
+    .infoBox4 p {
+      padding: 0px 40px 0px 140px;
+    }
+
+    .mereInfo4 {
+      height: 225px;
+    }
+
 }
