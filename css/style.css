@@ -572,7 +572,7 @@ h2 {
 
 /* media queries for 13 inch monitor */
 
-@media (min-width: 768px) and (max-width: 1400px) {
+@media (min-width: 768px) and (max-width: 1500px) {
     
 /*----------------------------------------------HEADER-----------------------------------------*/
     header {
