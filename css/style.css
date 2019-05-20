@@ -113,7 +113,7 @@ header {
   padding: 30px 50px;
   color: #ffffff;
   font-size: 28px;
-  font-weight: 100;
+  font-weight: 900;
 }
 
 .kortInfo p {
@@ -570,7 +570,7 @@ h2 {
 
 /*-------------------RESPONSIVE MEDIA QUERIES-----------------------------------------*/
 
-/* media queries for 13 inch monitor*/
+/* media queries for 13 inch monitor */
 
 @media (min-width: 768px) and (max-width: 1400px) {
     
@@ -584,8 +584,8 @@ h2 {
     }
     
     .nav-menu a {
-      padding: 35px 25px;
-      font-size: 26px;
+      padding: 40px 25px;
+      font-size: 20px;
     }
     
     .nav-menu img {
@@ -605,9 +605,20 @@ h2 {
     }
 
     .titel {
-      width: 520px;
-      margin-bottom: 20px;
-      border-radius: 20px;
+        height: 160px;
+        width: 520px;
+        margin-bottom: 20px;
+        border-radius: 20px;
+    }
+    
+    .titel h2 {
+      font-size: 34px;
+      padding: 10px 10px;
+    }
+
+    .titel p {
+      width: 400px;
+      font-size: 20px;
     }
 
     .box2 {
@@ -616,11 +627,18 @@ h2 {
     }
 
     .kortInfo {
-      height: 350px;
+      height: 270px;
     }
 
     .kortInfo h2 {
-      padding: 30px 50px 20px;
+       padding: 30px 50px 20px;
+       font-size: 24px; 
+       font-weight: 900;    
+    }
+    
+    .kortInfo p {
+      font-size: 20px;
+      font-weight: 100;
     }
     
 /*-----------------------------INDEX SECTION 2-----------------------------------------*/
@@ -660,7 +678,8 @@ h2 {
     }
 
     .infoBox h2 {
-      padding: 20px 0px 20px 40px;
+      padding: 40px 0px 20px 40px;
+        font-size: 40px;
     }
 
     .infoBox p {
@@ -686,7 +705,8 @@ h2 {
     }
 
     .infoBox2 h2 {
-      padding: 20px 0px 20px 140px;
+      padding: 40px 0px 20px 140px;
+        font-size: 40px;
     }
 
     .infoBox2 p {
@@ -710,7 +730,8 @@ h2 {
     }
 
     .infoBox3 h2 {
-      padding: 20px 0px 20px 40px;
+      padding: 40px 0px 20px 40px;
+        font-size: 40px;
     }
 
     .infoBox3 p {
@@ -736,7 +757,8 @@ h2 {
     }
 
     .infoBox4 h2 {
-      padding: 20px 0px 20px 140px;
+      padding: 40px 0px 20px 140px;
+        font-size: 40px;
     }
 
     .infoBox4 p {
