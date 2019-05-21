@@ -47,8 +47,8 @@ html {
 
 .main {
   position: absolute;
-  left: 16em;
-  margin-right: 3em;
+  left: 17.5em;
+  margin-right: 1em;
   padding: 0.8em;
   line-height: 1.5;
   background-color: #e1d4cd;
@@ -91,9 +91,10 @@ body {
 
 .maintitlefarver h2 {
   margin: 6% 0 2% 8.8%;
-  font-size: 30px;
-  font-weight: 100;
+  font-size: 16px;
+  font-weight: 400;
   font-family: sans-serif;
+  text-transform: uppercase;
 }
 
 .farver {
@@ -158,12 +159,6 @@ body {
   width: 20%;
 }
 
-.strongcyan {
-  background-color: #bc3018;
-  padding: 40px;
-  width: 20%;
-}
-
 .farver h3 {
   color: #0c0c0c;
   font-weight: 400;
@@ -177,37 +172,112 @@ body {
 /***************** TYPOGRAFI SEKTION **************/
 
 .maintypotitle {
-  background-color: #426178;
+  background-color: #22252d;
   display: grid;
   grid-template-columns: 1fr;
-  font-family: sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .maintypotitle h2 {
-  margin: 3% 0 2% 8.8%;
-  font-size: 30px;
-  color: #ffffff;
-  font-weight: 100;
-  margin-top: 5%;
+  margin: 3% 0 0 8.8%;
+  font-size: 16px;
+  font-weight: 400;
+  color: #74828b;
+  text-transform: uppercase;
 }
 
-.subtypotitle {
-  background-color: #426178;
+.skrifttitle {
+  background-color: #22252d;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  font-family: "Roboto", sans-serif;
+}
+
+.skrifttitle h3 {
+  margin: 0 0 0 17.5%;
+  font-size: 70px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  color: #ffffff;
+}
+
+.skrifttitle h5 {
+  margin: 3% 0 0 -40%;
+  font-size: 12px;
+  font-weight: 400;
+  color: #74828b;
+}
+
+.skrifttitle h4 {
+  margin: 0 0 0 -40%;
+  font-size: 18px;
+  font-weight: 800;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+}
+
+.skrifttitle h2 {
+  margin: 0 0 0 -40%;
+  font-size: 18px;
+  font-weight: 200;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+}
+
+/***** SUB TYPO SEKTION ******/
+
+.subtypomaintitle {
+  background-color: #22252d;
+  display: grid;
+  grid-template-columns: 1fr;
+  font-family: "Roboto", sans-serif;
+}
+
+.subtypomaintitle h3 {
+  margin: 2% 0 0 8.8%;
+  font-size: 16px;
+  font-weight: 400;
+  color: #74828b;
+  text-transform: uppercase;
+}
+
+.subtypoheads {
+  background-color: #22252d;
   font-family: sans-serif;
   margin-bottom: 10%;
 }
 
-.subtypotitle p {
-  width: 50%;
+.subtypoheads h1 {
+  margin: 0 0 1% 8.8%;
+  font-size: 32px;
+  font-weight: 100;
+  font-family: "Roboto", sans-serif;
   color: #ffffff;
-  margin: 0 0 10px 18%;
 }
 
-.subtypotitle img {
-  width: 60%;
-  margin: -13% 0 10% 15%;
+.subtypoheads h2 {
+  margin: 0 0 1% 8.8%;
+  font-size: 24px;
+  font-weight: 100;
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
+}
+
+.subtypoheads h3 {
+  margin: 0 0 1% 8.8%;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
+}
+
+.subtypoheads h4 {
+  margin: 0 0 1% 8.8%;
+  padding-bottom: 5%;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
 }
 
 /*************** IKONER SEKTION ****************/
