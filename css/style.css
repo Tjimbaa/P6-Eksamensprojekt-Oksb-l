@@ -1218,6 +1218,35 @@ h2 {
         float: left;
         margin: 6px;
     }
+    
+/*-------------------UNDERSIDE PAKKELØSNING media queries----------------------------*/
+    .pakkelos{
+        width: 900px;
+        height: 200px;
+        margin: 0 auto;
+        margin-bottom: 50px;
+        padding-top: 140px;
+        background-color: red;
+    }
+    
+    .pakkeBox1{
+        background-color: blue;
+        width: calc(25% - 10px);
+        height: 100px;
+        float: left;
+        margin: 5px;
+    }
+    
+    .pakkeBox1 p{
+        font-size: 20px;
+    }
+    
+    .inputpakke{
+        width: 150px;
+        height: 30px;
+        margin: 10px 0;
+        border-radius: 5px;
+    }
 }
 
  /*-------------------JAVASCRIPT TILFØJELSER --------------------------------*/
