@@ -1138,7 +1138,6 @@ h2 {
     .hyttebox a div:hover{
         color: #333;
         background-color: yellow;
-
     }
     
     .pakke{
@@ -1146,7 +1145,7 @@ h2 {
         width: calc(50% - 10px);
         height: 750px;
         float: right;
-        margin-bottom: 50px;
+        margin-bottom: 100px;
         box-shadow: 5px 10px 8px #888888
     }
     
@@ -1202,6 +1201,22 @@ h2 {
     .pakkebox a div:hover{
         color: #333;
         background-color: yellow;
+    }
+    
+    .anmeldelse{
+        clear: both;
+        width: 900px;
+        height: 200px;
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+    
+    .anBox1{
+        background-color: blue;
+        width: calc(33% - 10px);
+        height: 200px;
+        float: left;
+        margin: 6px;
     }
 }
 
