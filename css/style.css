@@ -1013,7 +1013,7 @@ h2 {
 .mySlides {
     height: 180px;
   display: none;
-  padding: 80px;
+  padding: 20px;
   text-align: center;
 }
 
@@ -1029,6 +1029,25 @@ animation: fadein 2.5s;
 	font-size: 26px;
 }
 
+/* Slides1 */
+.mySlides1 {
+    height: 180px;
+  display: none;
+  padding: 20px;
+  text-align: center;
+}
+
+.mySlides1 q{
+animation: fadein 2.5s;
+	font-size: 30px;
+    color: green;
+    font-weight: 900;
+}
+
+.mySlides1 p{
+animation: fadein 2.5s;
+	font-size: 26px;
+}
 
 /* The dot/bullet/indicator container */
 .dot-container {

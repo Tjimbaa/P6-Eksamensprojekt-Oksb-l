@@ -32,8 +32,14 @@ showSlides(slideIndex);
 
 function showSlides(n) {
    var i;
-  var slides = document.getElementsByClassName("mySlides");
   var dots = document.getElementsByClassName("dot");
+    
+      if (x.matches) { // If media query matches
+        var slides = document.getElementsByClassName("mySlides1");
+      } else {
+        var slides = document.getElementsByClassName("mySlides");
+      }
+    
   for (i = 0; i < slides.length; i++) {
     slides[i].style.display = "none";  
   }
@@ -47,3 +53,5 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
   setTimeout(showSlides, 5000); // Change image every 2 seconds
 }
+var x = window.matchMedia("(max-width: 1500px)")
+x.addListener(showSlides)
