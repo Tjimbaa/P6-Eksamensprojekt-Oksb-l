@@ -77,7 +77,6 @@ header {
   background-color: rgba(90,148,200, 0.8);
   height: 190px;
   width: 620px;
-  margin-bottom: 40px;
   border-radius: 20px;
 }
 
@@ -108,6 +107,7 @@ header {
   height: 400px;
   width: 500px;
   border-radius: 20px;
+    margin-bottom: 40px;
 }
 
 .kortInfo h2 {
@@ -528,7 +528,7 @@ h2 {
   height: 400px;
   width: 500px;
   border-radius: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 .aktivInfo h2 {
@@ -575,7 +575,7 @@ h2 {
 
 @media (min-width: 768px) and (max-width: 1500px) {
     
-/*----------------------------------------------HEADER-----------------------------------------*/
+/*----------------------------------HEADER media queries---------------------------*/
     header {
       height: 100px;
     }
@@ -594,7 +594,7 @@ h2 {
       padding-left: 40px;
     }
     
-/*--------------------------INDEX SECTION 1-----------------------------------------*/
+/*--------------------------INDEX SECTION 1 media queries----------------------------------*/
 
     .boxes {
       margin-top: 100px;
@@ -608,7 +608,6 @@ h2 {
     .titel {
         height: 160px;
         width: 520px;
-        margin-bottom: 20px;
         border-radius: 20px;
     }
     
@@ -633,7 +632,7 @@ h2 {
 
     .kortInfo h2 {
        padding: 30px 50px 20px;
-       font-size: 24px; 
+       font-size: 26px; 
        font-weight: 900;    
     }
     
@@ -647,7 +646,7 @@ h2 {
     }
 
     
-/*-----------------------------INDEX SECTION 2-----------------------------------------*/
+/*-----------------------------INDEX SECTION 2 media queries------------------------------*/
 
     .information {
       padding: 50px 0px;
@@ -656,15 +655,6 @@ h2 {
 
     .cirkel {
       margin: 70px 28px 0;
-    }
-
-    .cirkel1 {
-      width: 40px;
-      height: 40px;
-      margin: 65px 28px 0;
-      border: solid 2px #fff;
-      border-radius: 100px;
-      position: absolute;
     }
     
     .filler {
@@ -788,7 +778,25 @@ h2 {
       height: 175px;
     }
 
-/*-------------------AKTIVITETER SECTION 2-----------------------------------------*/
+/*-------------------AKTIVITETER SECTION 1 media queries----------------------------*/
+
+    .aktivInfo {
+      height: 270px;
+        margin-bottom: 40px;
+    }
+
+    .aktivInfo h2 {
+       padding: 30px 50px 20px;
+       font-size: 30px; 
+       font-weight: 900;  
+    }
+
+    .aktivInfo p {
+      font-size: 20px;
+      font-weight: 100;
+    }
+    
+/*-------------------AKTIVITETER SECTION 2 media queries--------------------------*/
 
     .picAktiv {
       width: 500px;
@@ -800,4 +808,109 @@ h2 {
         width: 500px;
         height: 350px
     }
+    
+/*-------------------LÆRING SECTION 2 media queries-----------------------*/
+    .wrapper2 {
+      width: 1100px;
+    }
+    
+    .cirkel1 {
+      width: 30px;
+      height: 30px;
+      margin: 60px 33px 0;
+    }
+
+    /* FLYGTNINGE MUSEUM */
+
+    .picLaering {
+      margin: 0px 200px 50px 0px;
+      width: 35%;
+      height: 300px;
+    }
+
+    .LaeringBox {
+      margin: 150px 0px 0px 150px;
+      width: 300px;
+      height: 150px;
+    }
+
+    .LaeringBox h2 {
+      padding: 30px 0px 20px 30px;
+      font-size: 24px;
+      font-weight: 100;
+    }
+
+    .LaeringBox p {
+      padding: 0px 30px 0px 30px;
+      font-size: 16px;
+    }
+
+    .laeringInfo {
+      margin: 0px 0px 0px 300px;
+      width: 100px;
+      height: 150px;
+    }
+
+    /* FLYGTNING UDSIGTSTÅRN */
+
+    .picLaering2 {
+      margin: 0px 0px 50px 0px;
+      width: 35%;
+      height: 300px;
+    }
+
+    .LaeringBox2 {
+      margin: 150px 0px 0px 150px;
+      width: 300px;
+      height: 150px;
+    }
+
+    .LaeringBox2 h2 {
+      padding: 30px 0px 20px 30px;
+      font-size: 24px;
+      font-weight: 100;
+    }
+
+    .LaeringBox2 p {
+      padding: 0px 30px 0px 30px;
+      font-size: 16px;
+    }
+
+    .laeringInfo2 {
+      margin: 0px 0px 0px 300px;
+      width: 100px;
+      height: 150px;
+    }
+
+    /* FLYGTNINGELEJR */
+
+    .picLaering3 {
+      margin: 0px 200px 50px 0px;
+      width: 35%;
+      height: 300px;
+    }
+
+    .LaeringBox3 {
+      margin: 150px 0px 0px 150px;
+      width: 300px;
+      height: 150px;
+    }
+
+    .LaeringBox3 h2 {
+      padding: 30px 0px 20px 30px;
+      font-size: 24px;
+      font-weight: 100;
+    }
+
+    .LaeringBox3 p {
+      padding: 0px 30px 0px 30px;
+      font-size: 16px;
+    }
+
+    .laeringInfo3 {
+      margin: 0px 0px 0px 300px;
+      width: 100px;
+      height: 150px;
+    }
+
 }
