@@ -272,6 +272,7 @@ h2 {
   padding: 50px 0px 20px 50px;
   font-size: 50px;
   font-weight: 100;
+  transition: 0.5s all ease-in-out;
 }
 
 .infoBox p {
