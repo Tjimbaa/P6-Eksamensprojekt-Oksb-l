@@ -632,6 +632,59 @@ h2 {
   float: right;
 }
 
+.aktivBox {
+  background-color: #f3f3f3;
+  margin: 275px 0px 0px 600px;
+  width: 600px;
+  height: 275px;
+  position: absolute;
+}
+
+.aktivBox p,
+h2 {
+  float: left;
+}
+
+.aktivBox h2 {
+  color: #5a94c8;
+  padding: 50px 0px 20px 50px;
+  font-size: 50px;
+  font-weight: 100;
+}
+
+.aktivBox p {
+  clear: both;
+  padding: 0px 50px 0px 50px;
+  font-size: 20px;
+}
+
+.aktivBox2 {
+  background-color: #f3f3f3;
+  margin: 275px 600px 0px 0px;
+  width: 700px;
+  height: 275px;
+  float: right;
+  transition: 0.5s all ease-in-out;
+}
+
+.aktivBox2 p,
+h2 {
+  float: left;
+}
+
+.aktivBox2 h2 {
+  color: #75902e;
+  padding: 50px 0px 20px 150px;
+  font-size: 50px;
+  font-weight: 100;
+}
+
+.aktivBox2 p {
+  clear: both;
+  padding: 0px 50px 0px 150px;
+  font-size: 20px;
+}
+
 /*-------------------RESPONSIVE MEDIA QUERIES-----------------------------------------*/
 
 /* media queries for 13 inch monitor */
@@ -869,6 +922,40 @@ h2 {
     width: 500px;
     height: 350px;
   }
+    
+  .aktivBox {
+    margin: 175px 0px 0px 300px;
+    height: 175px;
+    width: 500px;
+  }
+
+  .aktivBox h2 {
+    padding: 30px 0px 20px 30px;
+    font-size: 34px;
+  }
+
+  .aktivBox p {
+    clear: both;
+    padding: 0px 30px 0px 30px;
+    font-size: 16px;
+  }
+    
+  .aktivBox2 {
+    margin: 175px 300px 0px 0px;
+    height: 175px;
+    width: 600px;
+  }
+
+  .aktivBox2 h2 {
+    padding: 30px 0px 20px 130px;
+    font-size: 34px;
+  }
+
+  .aktivBox2 p {
+    padding: 0px 30px 0px 130px;
+    font-size: 16px;
+  }
+
 
   /*-------------------LÆRING SECTION 2 media queries-----------------------*/
   .wrapper2 {
