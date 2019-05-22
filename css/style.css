@@ -1146,7 +1146,7 @@ h2 {
         height: 750px;
         float: right;
         margin-bottom: 100px;
-        box-shadow: 5px 10px 8px #888888
+
     }
     
     .pakke h3{
@@ -1195,7 +1195,7 @@ h2 {
         border-radius: 5px;
         text-align: center;
         padding-top: 15px;
-        box-shadow: 2px 2px 8px #888888
+        box-shadow: 2px 2px 8px #888888;
     }
     
     .pakkebox a div:hover{
