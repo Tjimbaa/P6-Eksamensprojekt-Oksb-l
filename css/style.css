@@ -1074,8 +1074,9 @@ h2 {
         font-weight: 900;
       }
     .bookingBox{
+        background-color: red;
         width: 900px;
-        height: 200px;
+        height: 754px;
         margin: 0 auto;
     }
     
