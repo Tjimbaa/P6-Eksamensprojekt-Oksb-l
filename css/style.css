@@ -272,7 +272,6 @@ h2 {
   padding: 50px 0px 20px 50px;
   font-size: 50px;
   font-weight: 100;
-  transition: 0.5s all ease-in-out;
 }
 
 .infoBox p {
@@ -302,10 +301,11 @@ h2 {
 
 .infoBox2 {
   background-color: #f3f3f3;
-  margin: 275px 600px 0px 0px;
+  margin: 275px 0px 0px 0px;
   width: 700px;
   height: 275px;
   float: right;
+  transition: 0.5s all ease-in-out;
 }
 
 .infoBox2 p,
