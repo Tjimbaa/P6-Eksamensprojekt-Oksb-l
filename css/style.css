@@ -50,6 +50,62 @@ header {
 
 /*--------------------------INDEX SECTION 1-----------------------------------------*/
 
+/* BUTTON SKAL LAVES OM. KODE NED*/
+
+.test {
+  position: absolute;
+    bottom: 0;
+    left: 50%;
+}
+
+.buttontest {
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    color: black;
+    border: 2px solid white;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+  border-radius:100px;
+}
+
+.buttontest:hover {
+    background-color: #5A94C8;
+    color: white;
+    border: 2px solid #5A94C8;
+}
+
+.buttontest img{
+    width: 30px;
+    padding-top: 5px;
+}
+
+/*Bounce*/
+@keyframes kreep {
+    0% {-webkit-transform: scale(1.1,.9);
+        transform: scale(1.1,.9);}
+   50% { -webkit-transform: scale(.9,1.1) translateY(-.5rem)}
+   70% { -webkit-transform: scale(1);
+         transform: scale(1);}
+}
+
+p.kreep {
+  display: inline-block;
+  /*name-duration-function(ease,eas-in,linear)-delay-count-direction */
+  animation: kreep 0.7s ease 2s infinite alternate;
+}
+
+p.kreep:hover {
+  animation: none;
+}
+
+/* BUTTON SKAL LAVES OM. KODE OP*/
+
+
 .bg {
   background-image: url("../img/104.jpg");
   height: 100vh;
