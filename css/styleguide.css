@@ -90,7 +90,7 @@ body {
 }
 
 .maintitlefarver h2 {
-  margin: 6% 0 2% 8.8%;
+  margin: 6% 0 2% 9.8%;
   font-size: 16px;
   font-weight: 400;
   font-family: sans-serif;
@@ -108,7 +108,7 @@ body {
 
 .box {
   padding: 0 0 0 20px;
-  margin: 9% 0 10% 30%;
+  margin: 5% 0 0 30%;
 }
 
 .blue {
@@ -167,6 +167,7 @@ body {
 .farver p {
   color: #0c0c0c;
   font-weight: 100;
+  margin-bottom 10%;
 }
 
 /***************** TYPOGRAFI SEKTION **************/
@@ -290,14 +291,22 @@ body {
 
 .mainikontitle h2 {
   margin: 3% 0 2% 8.8%;
-  font-size: 30px;
-  font-weight: 100;
-  margin-top: 5%;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
 }
+
+.mainikontitle p {
+  margin: 0 0 2% 8.8%;
+  font-size: 22px;
+  font-weight: 100;
+}
+
+/********* SUB IKONER SEKTION *********/
 
 .subikontitle {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 10px;
   background-color: #daebff;
   font-family: sans-serif;
@@ -311,16 +320,74 @@ body {
   font-family: sans-serif;
 }
 
+.ikoner img {
+  display: grid;
+  width: 10%;
+  margin: 3% 0% 2% 35.5%;
+}
+
+.ikoner p {
+  display: grid;
+  margin: 3% 0% 10% 26.5%;
+}
+
 /********* KNAPPER SEKTION *************/
 
 .mainknaptitle {
   background-color: #daebff;
   display: grid;
   grid-template-columns: 1fr;
-  margin-bottom: 10%;
 }
 
 .mainknaptitle h2 {
+  margin: 3% 0 0 8.8%;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.mainknaptitle p {
+  margin: 3% 0 3% 8.8%;
+  font-size: 18px;
+}
+
+
+.subknaptitle {
+  background-color: #daebff;
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-bottom: 10%;
+}
+
+
+
+.greybox {
+  margin: 0 auto;
+  width: fit-content;
+  font-style: normal;
+  font-family: Karla;
+  font-size: 16px;
+  margin: 3% 0 3% 8.8%;
+  padding: 4px 20px 4px 20px;
+  color: #f1f1f1;
+  background-color: #C3D2DB;
+  text-transform: uppercase;
+}
+
+.greenbox {
+  margin: 0 auto;
+  width: fit-content;
+  font-style: normal;
+  font-family: Karla;
+  font-size: 16px;
+  margin: 3% 0 3% 8.8%;
+  padding: 6px 20px 6px 20px;
+  color: #f1f1f1;
+  background-color: #5AC869;
+  text-transform: uppercase;
+}
+
+.subknaptitle h3 {
   margin: 3% 0 2% 8.8%;
   font-size: 30px;
   font-weight: 100;
