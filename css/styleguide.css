@@ -47,7 +47,7 @@ html {
 
 .main {
   position: absolute;
-  left: 17.5em;
+  left: 22em;
   margin-right: 1em;
   padding: 0.8em;
   line-height: 1.5;
@@ -99,7 +99,7 @@ body {
 
 .farver {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 10px;
   background-color: #daebff;
   font-family: sans-serif;
@@ -108,7 +108,7 @@ body {
 
 .box {
   padding: 0 0 0 20px;
-  margin: 5% 0 0 30%;
+  margin: 5% 0 0 23.5%;
 }
 
 .blue {
@@ -298,8 +298,8 @@ body {
 
 .mainikontitle p {
   margin: 0 0 2% 8.8%;
-  font-size: 22px;
-  font-weight: 100;
+  font-size: 16px;
+  font-weight: 400;
 }
 
 /********* SUB IKONER SEKTION *********/
@@ -351,48 +351,79 @@ body {
   font-size: 18px;
 }
 
+.mainknaptitle h3 {
+  margin: 0 0 1% 8.8%;
+  font-size: 18px;
+}
+
 
 .subknaptitle {
   background-color: #daebff;
   display: grid;
-  grid-template-columns: 1fr;
-  margin-bottom: 10%;
+  grid-template-columns: 1fr 1fr;
 }
 
-
-
-.greybox {
+.greybtn {
   margin: 0 auto;
   width: fit-content;
   font-style: normal;
   font-family: Karla;
   font-size: 16px;
-  margin: 3% 0 3% 8.8%;
+  margin: 3% 0 3% 17.8%;
   padding: 4px 20px 4px 20px;
   color: #f1f1f1;
   background-color: #C3D2DB;
-  text-transform: uppercase;
 }
 
-.greenbox {
+.greybtn:hover {
+  transition: 0.6s;
+  transform: scale(0.85);
+  background-color: #9EABB2;
+}
+
+.greenbtn {
   margin: 0 auto;
   width: fit-content;
   font-style: normal;
   font-family: Karla;
   font-size: 16px;
-  margin: 3% 0 3% 8.8%;
+  margin: 3% 0 3% -55%;
   padding: 6px 20px 6px 20px;
   color: #f1f1f1;
   background-color: #5AC869;
-  text-transform: uppercase;
 }
 
-.subknaptitle h3 {
-  margin: 3% 0 2% 8.8%;
-  font-size: 30px;
-  font-weight: 100;
-  margin-top: 5%;
+.greenbtn:hover {
+  transition: 0.6s;
+  transform: scale(0.85);
+  background-color: #49A355;
 }
+
+.codebox {
+  background-color: #daebff;
+  overflow: scroll;
+  margin: 0 0 10% 0;  
+}
+
+.defaultbtn {
+  background-color: white;
+  width: 400px;
+  overflow: scroll;
+  margin: 0 0 0 8.8%;
+  padding: 1% 0 0 1%;
+  font-size: 14px;
+}
+
+.calltoactionbtn {
+  background-color: white;
+  width: 400px;
+  overflow: scroll;
+  margin: 0 0 3% 8.8%;
+  padding: 1% 0 1% 1%;
+  font-size: 14px;
+
+}
+
 
 /************* INPUT FELTER SEKTION ***************/
 
@@ -408,6 +439,10 @@ body {
   font-size: 30px;
   font-weight: 100;
   margin-top: 5%;
+}
+
+.maininputtitle p {
+  color: transparent;
 }
 
 /********** TONE OF VOICE SEKTION  **************/
