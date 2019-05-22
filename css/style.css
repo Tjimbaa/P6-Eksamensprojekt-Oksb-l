@@ -305,6 +305,7 @@ h2 {
   width: 700px;
   height: 275px;
   float: right;
+    opacity: 0;
   transition: 0.5s all ease-in-out;
 }
 
@@ -763,7 +764,7 @@ h2 {
   }
 
   .infoBox2 {
-    margin: 175px 300px 0px 0px;
+    margin: 175px 0px 0px 0px;
     height: 175px;
     width: 600px;
   }
@@ -971,8 +972,10 @@ h2 {
     margin: 0px 0px 0px 300px;
     width: 100px;
     height: 150px;
-  }
+  } 
 }
+
+ /*-------------------JAVASCRIPT TILFØJELSER --------------------------------*/
 
 /* testing */
 
@@ -984,8 +987,15 @@ h2 {
 .test-appear1 {
   opacity: 1;
   transform: translateY(0px);
-  transition-duration: 1.5s;
+  transition-duration: 1s;
   margin: 275px 600px 0px 0px;
+}
+
+.test-appear2 {
+  opacity: 1;
+  transform: translateY(0px);
+  transition-duration: 1s;
+  margin: 175px 300px 0px 0px;
 }
 
 /*test qoute*/

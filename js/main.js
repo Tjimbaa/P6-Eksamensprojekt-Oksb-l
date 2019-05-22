@@ -15,13 +15,15 @@ function scrollAppear2() {
   var introPosition = introText.getBoundingClientRect().top;
   var screenPosition = window.innerHeight / 1.5;
 
-  if (introPosition < screenPosition) {
-    introText.classList.add("test-appear1");
-  }
+    if (x.matches && introPosition < screenPosition) { // If media query matches
+        introText.classList.add("test-appear2");
+      } else if (introPosition < screenPosition){
+        introText.classList.add("test-appear1");
+      }
 }
-
+var x = window.matchMedia("(max-width: 1500px)")
 window.addEventListener("scroll", scrollAppear2);
-
+x.addListener(scrollAppear2) // Attach listener function on state changes
 
 // SLIDESHOW QUOTES //
 
