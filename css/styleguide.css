@@ -31,6 +31,8 @@ html {
 /* color: white; */
 /* } */
 
+
+
 .sidebar {
   height: 100%;
   width: 200px;
@@ -47,8 +49,9 @@ html {
 
 .main {
   position: absolute;
-  left: 15em;
-  margin-right: 1em;
+  width: 900px;
+  margin: 0 auto;
+  margin-left: 22em;
   padding: 0.8em;
   line-height: 1.5;
   background-color: #e1d4cd;
