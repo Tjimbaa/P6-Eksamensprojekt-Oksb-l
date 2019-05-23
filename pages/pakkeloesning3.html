@@ -71,14 +71,15 @@
                   <h4>Vælg pakke</h4>
                   <h5>Vælg din favorit pakke</h5>
               </div></a>
-              <div class="rejBox1" id="oplyBox2">
+              <a href="pakkeloesning2.html"><div class="rejBox1">
                   <div class="rejNummer">
                       <p>2</p>
                   </div>
                   <h4>Information</h4>
                   <h5>Dine oplysninger</h5>
               </div>
-              <div class="rejBox1" id="rejBox3">
+              </a>
+              <div class="rejBox1" id="oplyBox3">
                   <div class="rejNummer">
                       <p>3</p>
                   </div>
@@ -100,41 +101,30 @@
           </div>
           <hr>
           <div class="dinOplys">
-              <div class="oplysBox1">
-                  <h5>Dine oplysninger</h5>
+              <div class="p3oplysBox1">
+                  <h5>Betalingsoplysninger</h5>
                   <hr>
                   <div class="oplysInfo">
-                     <div class="boks1">
-                          <h4>fornavn *</h4>
+                     <div class="p3boks1">
+                          <h4>FORNAVN PÅ KORTHOLDER *</h4>
                           <input class="indsaetInfo">
                       </div>
-                      <div class="boks">
-                          <h4>Efternavn *</h4>
+                      <div class="p3boks">
+                          <h4>EFTERNAVN PÅ KORTHOLDER *</h4>
                           <input class="indsaetInfo">
                       </div>
-                      <div class="boks1">
-                          <h4>Skolenavn *</h4>
+                      <div class="p3boks1">
+                          <h4>KORTNUMMER *</h4>
                           <input class="indsaetInfo">
                       </div>
-                      <div class="boks">
-                          <h4>Mobil NR.</h4>
-                          <input class="indsaetInfo">
+                      <div class="udløbbok">
+                          <h4>UDLØBSDATO *</h4>
+                          <input class="udløb" placeholder="MM *">
+                          <input class="udløb" placeholder="ÅÅÅÅ *">
                       </div>
-                      <div class="boks1">
-                          <h4>By *</h4>
-                          <input class="indsaetInfo">
-                      </div>
-                      <div class="boks">
-                          <h4>Postnummer </h4>
-                          <input class="indsaetInfo" id="postBoks">
-                      </div>
-                      <div class="boks1">
-                          <h4>E-mail *</h4>
-                          <input class="indsaetInfo">
-                      </div>
-                      <div class="boks">
-                          <h4>Bekræft e-mail *</h4>
-                          <input class="indsaetInfo">
+                      <div class="cvc">
+                          <h4>cvc *</h4>
+                          <input class="udløb">
                       </div>
                   </div>
               </div>
@@ -174,11 +164,14 @@
                     <h4>Samlet pris:</h4>
                   </div>
               </div>
+            <div class="p3oplysBox2">
+                <input type="checkbox" name="vilkårBetingelser">
+                <p>Jeg accepterer Vilkår og betingelser og Bookingbetingelser</p>
+            </div>
               <div class="oplysBox3">
-                 <a href="pakkeloesning2.html">
-                 <img src="../img/icon-left-arrow.svg">
+                <a href="pakkeloesning2.html"><img src="../img/icon-left-arrow.svg">
                  <div class="tilbage"><p>Tilbage til vælg pakke</p></div></a>
-                  <a href="pakkeloesning3.html"><div class="forsæt"><p>Forsæt til betaling</p></div></a>
+                  <a href="#"><div class="p3forsæt"><p>Betal</p></div></a>
               </div>
           </div>
       </div>
