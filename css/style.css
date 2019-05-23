@@ -276,7 +276,7 @@ p.kreep:hover {
   height: 275px;
   position: absolute;
   opacity: 0;
-  transform: translateY(20px);
+//*  transform: translateY(20px); *//
   transition: 0.5s all ease-in-out;
 }
 
@@ -811,7 +811,7 @@ h2 {
   }
 
   .infoBox {
-    margin: 175px 0px 0px 300px;
+      margin: 175px 300px 0px 0px;
     height: 175px;
     width: 500px;
   }
@@ -1977,6 +1977,8 @@ h2 {
 .test-appear {
   opacity: 1;
   transform: translateY(0px);
+      transition-duration: 1s;
+    margin: 175px 0px 0px 300px;
 }
 
 .test-appear1 {
