@@ -1473,7 +1473,7 @@ h2 {
         color: #333;
     }
     
-/*-------------------UNDERSIDE PAKKELØSNING1 media queries----------------------------*/
+/*-------------------UNDERSIDE PAKKELØSNING2 media queries----------------------------*/
     
     .pakkelostitle1{
         clear: both;
@@ -1573,7 +1573,14 @@ h2 {
     .boks{
         float: left;
         width: calc(50% - 40px);
-        margin: 20px 20px;
+        margin: 20px 20px 20px 0px;
+        height: 25px;
+    }
+    
+    .boks1{
+        float: left;
+        width: calc(50% - 40px);
+        margin: 20px 20px 20px 20px;
         height: 25px;
     }
     
@@ -1687,6 +1694,12 @@ h2 {
         font-weight: 100;
     }
     
+    .oplysBox3 img{
+        width: 20px;
+        float: left;
+        margin: 10px 0px 10px 10px;
+    }
+    
     .oplysBox3{
         width: calc(60% - 10px);
         height: 50px;
@@ -1719,6 +1732,117 @@ h2 {
     }
     
     .forsæt p{
+        text-align: center;
+        margin: 9px;
+        font-size: 18px;
+        color: #fff;
+    }
+    
+/*-------------------UNDERSIDE PAKKELØSNING3 media queries----------------------------*/
+    
+    #oplyBox3{
+        background-color: #5AC869;
+    }
+    
+    #oplyBox3 h4{
+        color: #fff;
+    }
+    
+    #oplyBox3 h5{
+        color: #fff;
+    }
+    
+    .p3boks{
+        float: left;
+        width: calc(50% - 40px);
+        margin: 20px 20px 20px 0px;
+        height: 25px;
+    }
+    
+    .p3boks1{
+        float: left;
+        width: calc(50% - 40px);
+        margin: 20px 0px 20px 20px;
+        height: 25px;
+    }
+    
+    .udløb{
+        float: left;
+        margin: 0 10px 0 0;
+        padding: 0 0px 0 10px;
+        width: 60px;
+        height: 30px;
+        border: 1px solid #707070;
+        border-radius: 5px;
+    }
+    
+    .udløbbok{
+        float: left;
+        width: calc(40% - 40px);
+        margin: 20px 0px 20px 0px;
+        height: 25px;
+    }
+    
+    .cvc{
+        float: left;
+        width: calc(20% - 40px);
+        margin: 20px 20px 20px 0px;
+        height: 25px;
+    }
+    
+    .p3oplysBox1{
+        background-color: #E6EEF4;
+        width: calc(60% - 10px);
+        height: 220px;
+        float: left;
+        margin: 5px;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .p3oplysBox1 h5{
+        margin: 20px 10px 10px 20px;
+        font-size: 30px;
+        font-weight: 100;
+    }
+    
+    .p3oplysBox1 hr{
+        margin: 0 auto;
+        width: 485px; 
+    }
+    
+    .p3oplysBox2{
+        float: left;
+        background-color: #E6EEF4;
+        width: calc(60% - 9px);
+        height: 60px;
+        float: left;
+        margin: 5px;
+        margin-top: -60px;
+        border-radius: 10px;
+    }
+    
+    .p3oplysBox2 input{
+        float: left;
+        width: 30px;
+        height: 30px;
+        margin: 15px 20px;
+    }
+    
+    .p3oplysBox2 p{
+        margin: 20px;
+    }
+    
+    .p3forsæt{
+        width: 100px;
+        height: 40px;
+        background-color: #5AC869;
+        float: right;
+        border: 1px solid #707070;
+        border-radius: 5px;
+    }
+    
+    .p3forsæt p{
         text-align: center;
         margin: 9px;
         font-size: 18px;
