@@ -1468,6 +1468,29 @@ h2 {
         text-align: center;
         font-size: 18px;
     }
+    
+/*-------------------UNDERSIDE PAKKELØSNING1 media queries----------------------------*/
+    
+    .pakkelostitle1 div{
+        clear: both;
+        background-color: red;
+        width: 100px;
+        height: 100px;
+        float: left;
+    }
+    
+    .pakkelostitle1 h3{
+        padding: 60px 0 10px 0;
+        text-align: center;
+        font-size: 28px;
+    }
+    
+    .pakkelostitle1 h4{
+        padding-bottom: 80px;
+        text-align: center;
+        font-size: 22px;
+        font-weight: 100;
+    }
 }
 
  /*-------------------JAVASCRIPT TILFØJELSER --------------------------------*/
