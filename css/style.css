@@ -1903,19 +1903,33 @@ h2 {
     height: 180px;
   display: none;
   padding: 20px;
-  text-align: center;
 }
 
 .mySlides q{
 animation: fadein 2.5s;
-	font-size: 30px;
-    color: red;
-    font-weight: 900;
+	font-size: 18px;
+    font-weight: 100;
+    color: #fff;
+    text-align: left;
+    line-height: 26px;
+}
+
+.mySlides h3{
+animation: fadein 2.5s;
+	font-size: 18px;
+    font-weight: 100;
+    color: #fff;
+    text-align: left;
+    line-height: 26px;
 }
 
 .mySlides p{
+    width: 370px;
+    text-align: center;
 animation: fadein 2.5s;
-	font-size: 26px;
+	font-size: 24px;
+    font-weight: 900;
+    margin-bottom: 20px;
 }
 
 /* Slides1 */
@@ -1923,19 +1937,33 @@ animation: fadein 2.5s;
     height: 180px;
   display: none;
   padding: 20px;
-  text-align: center;
 }
 
 .mySlides1 q{
 animation: fadein 2.5s;
-	font-size: 30px;
-    color: green;
-    font-weight: 900;
+	font-size: 18px;
+    font-weight: 100;
+    color: #fff;
+    text-align: left;
+    line-height: 26px;
+}
+
+.mySlides1 h3{
+animation: fadein 2.5s;
+	font-size: 18px;
+    font-weight: 100;
+    color: #fff;
+    text-align: left;
+    line-height: 26px;
 }
 
 .mySlides1 p{
+    width: 370px;
+    text-align: center;
 animation: fadein 2.5s;
-	font-size: 26px;
+	font-size: 24px;
+    font-weight: 900;
+    margin-bottom: 20px;
 }
 
 /* The dot/bullet/indicator container */
@@ -1961,7 +1989,6 @@ animation: fadein 2.5s;
 }
 
 /* Add an italic font style to all quotes */
-q {font-style: italic;}
 
 /* Add a blue color to the author */
 .author {color: cornflowerblue;}
