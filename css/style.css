@@ -81,7 +81,10 @@ header {
 
 .buttontest img {
   width: 30px;
-  padding-top: 5px;
+  padding-top: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /*Bounce*/
@@ -185,7 +188,8 @@ p.kreep:hover {
   font-weight: 100;
 }
 
-.book {
+.book1 {
+    width: 100px;
   background-color: #4caf50;
   border: none;
   color: white;
@@ -193,17 +197,25 @@ p.kreep:hover {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 24px;
+  font-size: 26px;
   cursor: pointer;
   /* Koden forneden er for at centre button */
   display: block;
   margin-left: auto;
   margin-right: auto;
   border-radius: 10px;
+
 }
 
-.book1{
-    text-decoration: none;
+.book1:hover{
+    -moz-transform: scale(0.9);
+    -webkit-transform: scale(0.9);
+    -o-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+    
+    transition-duration: 1s;
 }
 
 /*-----------------------------INDEX SECTION 2-----------------------------------------*/
@@ -1136,8 +1148,14 @@ h2 {
     }
     
     .hyttebox a div:hover{
-        color: #333;
-        background-color: yellow;
+            -moz-transform: scale(0.9);
+    -webkit-transform: scale(0.9);
+    -o-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+    
+    transition-duration: 1s;
     }
     
     .pakke{
@@ -1199,8 +1217,14 @@ h2 {
     }
     
     .pakkebox a div:hover{
-        color: #333;
-        background-color: yellow;
+            -moz-transform: scale(0.9);
+    -webkit-transform: scale(0.9);
+    -o-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+    
+    transition-duration: 1s;
     }
     
     .anmeldelse{
