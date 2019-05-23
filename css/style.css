@@ -1849,6 +1849,19 @@ h2 {
         font-size: 18px;
         color: #fff;
     }
+    
+/*-------------------UNDERSIDE PAKKELØSNING4 media queries----------------------------*/
+    #oplyBox4{
+        background-color: #5AC869;
+    }
+    
+    #oplyBox4 h4{
+        color: #fff;
+    }
+    
+    #oplyBox4 h5{
+        color: #fff;
+    }
 }
 
  /*-------------------JAVASCRIPT TILFØJELSER --------------------------------*/
