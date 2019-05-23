@@ -1430,6 +1430,44 @@ h2 {
     .prisBox1 h3 a{
         color: #333;
     }
+    
+    .pakkelostitle2 h3{
+        padding: 40px 0 60px 0;
+        text-align: center;
+        font-size: 28px;
+    }
+    
+    .hosOs{
+        height: 300px;
+    }
+    
+    .hosBox1{
+        width: calc(25% - 10px);
+        height: 200px;
+        float: left;
+        margin: 5px;
+    }
+    
+    .hosBox1 img{
+        width: 80px;
+        height: 80px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .hosBox1 h3{
+        padding: 20px 0 10px;
+        text-align: center;
+        font-size: 22px;
+        font-weight: 900;
+    }
+    
+    .hosBox1 p{
+        padding: 0 20px;
+        text-align: center;
+        font-size: 18px;
+    }
 }
 
  /*-------------------JAVASCRIPT TILFØJELSER --------------------------------*/
