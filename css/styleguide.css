@@ -31,8 +31,6 @@ html {
 /* color: white; */
 /* } */
 
-
-
 .sidebar {
   height: 100%;
   width: 200px;
@@ -176,7 +174,6 @@ body {
 .farver p {
   color: #0c0c0c;
   font-weight: 100;
-  margin-bottom 10%;
 }
 
 /***************** TYPOGRAFI SEKTION **************/
@@ -192,7 +189,6 @@ body {
   margin: 3% 0 0 8.8%;
   font-size: 16px;
   font-weight: 400;
-  color: #74828b;
   text-transform: uppercase;
 }
 
@@ -214,21 +210,18 @@ body {
   font-size: 70px;
   font-weight: 400;
   letter-spacing: 2px;
-  color: #707070;
 }
 
 .skrifttitle h5 {
   margin: 3% 0 0 -40%;
   font-size: 12px;
   font-weight: 400;
-  color: #707070;
 }
 
 .skrifttitle h4 {
   margin: 0 0 0 -40%;
   font-size: 18px;
   font-weight: 800;
-  color: #707070;
   font-family: "Roboto", sans-serif;
 }
 
@@ -236,7 +229,6 @@ body {
   margin: 0 0 0 -40%;
   font-size: 18px;
   font-weight: 200;
-  color: #707070;
   font-family: "Roboto", sans-serif;
 }
 
@@ -253,7 +245,6 @@ body {
   margin: 2% 0 0 8.8%;
   font-size: 16px;
   font-weight: 400;
-  color: #707070;
   text-transform: uppercase;
 }
 
@@ -268,7 +259,6 @@ body {
   font-size: 32px;
   font-weight: 100;
   font-family: "Roboto", sans-serif;
-  color: #707070;
 }
 
 .subtypoheads h2 {
@@ -276,7 +266,6 @@ body {
   font-size: 24px;
   font-weight: 100;
   font-family: "Roboto", sans-serif;
-  color: #707070;
 }
 
 .subtypoheads h3 {
@@ -284,7 +273,6 @@ body {
   font-size: 20px;
   font-weight: 400;
   font-family: "Roboto", sans-serif;
-  color: #707070;
 }
 
 .subtypoheads h4 {
@@ -293,7 +281,6 @@ body {
   font-size: 16px;
   font-weight: 400;
   font-family: "Roboto", sans-serif;
-  color: #707070;
 }
 
 /*************** IKONER SEKTION ****************/
@@ -309,7 +296,6 @@ body {
   font-size: 16px;
   font-weight: 400;
   text-transform: uppercase;
-
 }
 
 .alignsection3 {
@@ -322,10 +308,8 @@ body {
   margin: 0 0 3% 8.8%;
   font-size: 16px;
   font-weight: 400;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
-
-
 
 /********* SUB IKONER SEKTION *********/
 
@@ -346,7 +330,6 @@ body {
   width: 100px;
   border-bottom: 2px solid #74828b;
 }
-
 
 .ikoner img {
   display: grid;
@@ -386,7 +369,6 @@ body {
   font-size: 18px;
 }
 
-
 .subknaptitle {
   background-color: #daebff;
   display: grid;
@@ -402,14 +384,14 @@ body {
   margin: 3% 0 3% 17.8%;
   padding: 4px 20px 4px 20px;
   color: #ffffff;
-  background-color: #C3D2DB;
+  background-color: #c3d2db;
   border-radius: 3px;
 }
 
 .greybtn:hover {
   transition: 0.6s;
   transform: scale(0.85);
-  background-color: #9EABB2;
+  background-color: #9eabb2;
 }
 
 .greenbtn {
@@ -421,14 +403,14 @@ body {
   margin: 3% 0 3% -55%;
   padding: 6px 20px 6px 20px;
   color: #f1f1f1;
-  background-color: #5AC869;
+  background-color: #5ac869;
   border-radius: 3px;
 }
 
 .greenbtn:hover {
   transition: 0.6s;
   transform: scale(0.85);
-  background-color: #49A355;
+  background-color: #49a355;
 }
 
 .codebox {
@@ -444,8 +426,7 @@ body {
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
   border-top: 1px solid #ccc;
-  border: 1px solid #ccc; 
-
+  border: 1px solid #ccc;
 }
 
 .calltoactionbtn {
@@ -466,7 +447,6 @@ body {
   margin-bottom: 10%;
 }
 
-
 /************* INPUT FELTER SEKTION ***************/
 
 .maininputtitle {
@@ -483,9 +463,6 @@ body {
   border-bottom: 2px solid #74828b;
   text-transform: uppercase;
 }
-
-
-
 
 /****** SUB INPUT FELTER SEKTION *********/
 
@@ -504,11 +481,8 @@ body {
   font-weight: 400;
 }
 
-.subinputtitle h5 {
-  color: transparent;
-}
-
-input[type=text], select {
+input[type="text"],
+select {
   width: 75%;
   padding: 12px 20px;
   margin: 3% 0 0 17.8%;
@@ -516,7 +490,7 @@ input[type=text], select {
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 14px;
 }
 
@@ -525,7 +499,6 @@ input[type=text], select {
   width: 100px;
   border-bottom: 1px solid #74828b;
 }
-
 
 .fnameform {
   background-color: white;
@@ -538,7 +511,6 @@ input[type=text], select {
   border: 1px solid #ccc;
 }
 
-
 .calender {
   width: 75%;
   padding: 12px 20px;
@@ -547,7 +519,7 @@ input[type=text], select {
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 14px;
 }
 
@@ -580,11 +552,11 @@ input[type=text], select {
   padding: 12px 20px;
   margin: 3% 0 0 17.8%;
   display: inline-block;
-  border: 2px solid #5AC869;
-  background-color: #84FF94;
+  border: 2px solid #5ac869;
+  background-color: #84ff94;
   border-radius: 4px;
   box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 14px;
 }
 .fejlbox {
@@ -592,18 +564,18 @@ input[type=text], select {
   padding: 12px 20px;
   margin: 3% 0 2% 17.8%;
   display: inline-block;
-  border: 2px solid #AD443B;
-  background-color: #FCEEEC;
+  border: 2px solid #ad443b;
+  background-color: #fceeec;
   border-radius: 4px;
   box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 14px;
 }
 
 .fejltitle h4 {
   margin: 0 0 5% 17.8%;
   font-size: 12px;
-  color: #AD443B;
+  color: #ad443b;
 }
 
 .dropdown {
@@ -616,6 +588,6 @@ input[type=text], select {
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 14px;
 }
