@@ -319,9 +319,10 @@ body {
 }
 
 .mainikontitle p {
-  margin: 0 0 2% 8.8%;
+  margin: 0 0 3% 8.8%;
   font-size: 16px;
   font-weight: 400;
+  font-family: 'Roboto', sans-serif;
 }
 
 
@@ -432,14 +433,11 @@ body {
 
 .codebox {
   background-color: #daebff;
-  overflow: scroll;
-  margin: 0 0 10% 0;  
 }
 
 .defaultbtn {
-  background-color: white;
+  background-color: #ffffff;
   width: 400px;
-  overflow: scroll;
   margin: 0 0 0 8.8%;
   padding: 1% 1% 0 1%;
   font-size: 14px;
@@ -451,10 +449,9 @@ body {
 }
 
 .calltoactionbtn {
-  background-color: white;
+  background-color: #ffffff;
   width: 400px;
-  overflow: scroll;
-  margin: 0 0 3% 8.8%;
+  margin: 0 0 0 8.8%;
   padding: 1% 1% 1% 1%;
   font-size: 14px;
   border-bottom-left-radius: 3px;
@@ -462,6 +459,11 @@ body {
   border-right: 1px solid #ccc;
   border-left: 1px solid #ccc;
   border-bottom: 1px solid #ccc;
+}
+
+.test {
+  padding-bottom: 3%;
+  margin-bottom: 10%;
 }
 
 
@@ -477,8 +479,9 @@ body {
   margin: 3% 0 3% 8.8%;
   font-size: 16px;
   font-weight: 400;
-  width: 100px;
+  width: 135px;
   border-bottom: 2px solid #74828b;
+  text-transform: uppercase;
 }
 
 
@@ -535,18 +538,6 @@ input[type=text], select {
   border: 1px solid #ccc;
 }
 
-.fnameform2 {
-  background-color: white;
-  width: 350px;
-  margin: 0 0 0 8.8%;
-  padding: 1% 0 0 1%;
-  font-size: 12px;
-  border-bottom-left-radius: 3px;
-  border-bottom-right-radius: 3px;
-  border-right: 1px solid #ccc;
-  border-left: 1px solid #ccc;
-  border-bottom: 1px solid #ccc;
-}
 
 .calender {
   width: 75%;
@@ -563,7 +554,7 @@ input[type=text], select {
 .fnameform3 {
   background-color: white;
   width: 350px;
-  margin: 8.5% 0 0 8.8%;
+  margin: 8% 0 0 8.8%;
   padding: 1% 0 0 1%;
   font-size: 12px;
   border-top-left-radius: 3px;
@@ -574,7 +565,7 @@ input[type=text], select {
 .fnameform4 {
   background-color: white;
   width: 350px;
-  margin: 0 0 0% 8.8%;
+  margin: 0 0 0 8.8%;
   padding: 1% 0 0% 1%;
   font-size: 12px;
   border-bottom-left-radius: 3px;
@@ -610,7 +601,7 @@ input[type=text], select {
 }
 
 .fejltitle h4 {
-  margin: 0 0 0 17.8%;
+  margin: 0 0 5% 17.8%;
   font-size: 12px;
   color: #AD443B;
 }
@@ -627,19 +618,4 @@ input[type=text], select {
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
-}
-
-/********** TONE OF VOICE SEKTION  **************/
-
-.maintostitle {
-  background-color: #daebff;
-  display: grid;
-  grid-template-columns: 1fr;
-}
-
-.maintostitle h2 {
-  margin: 3% 0 2% 8.8%;
-  font-size: 30px;
-  font-weight: 100;
-  margin-top: 5%;
 }

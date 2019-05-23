@@ -18,8 +18,7 @@
       <a href="#typografi">Typografi</a>
       <a href="#ikoner">Ikoner</a>
       <a href="#knapper">Knapper</a>
-      <a href="#knapper">Input Felter</a>
-      <a href="#tos">Tone of voice</a>
+      <a href="#input">Input Felter</a>
     </div>
     <main class="main">
       <!--------------- HJEM SEKTION -------------->
@@ -129,7 +128,7 @@
         </div>
       </section>
       <!-------------- IKONER SEKTION -------–-->
-      <section class="mainikontitle">
+      <section class="mainikontitle" id="ikoner">
         <div>
         <h2>
           03. Ikoner
@@ -150,7 +149,18 @@
             .icon-spbh-left-arrow
           </p>
         </div>
-
+        <div class="ikoner">
+            <img src="img/icon-cancel.svg" alt="icon cancel"/>
+            <p>
+              .icon-spbh-left
+            </p>
+          </div>
+          <div class="ikoner">
+              <img src="img/icon-down-arrow.png" alt="icon down arrow" />
+              <p>
+                .icon-spbh-down
+              </p>
+            </div>
         <div class="ikoner">
           <img src="img/icon-book.png" alt="icon book" />
           <p>
@@ -176,21 +186,11 @@
             .icon-spbh-wifi
           </p>
         </div>
-        <div class="ikoner">
-          <img src="img/icon-down-arrow.png" alt="icon down arrow" />
-          <p>
-            .icon-spbh-left
-          </p>
-        </div>
-        <div class="ikoner">
-          <img src="img/icon-down-arrow.png" alt="icon down arrow" />
-          <p>
-            .icon-spbh-left
-          </p>
-        </div>
+        
+        
       </section>
       <!------------ KNAPPER SEKTION --------------->
-      <section class="mainknaptitle">
+      <section class="mainknaptitle" id="knapper">
         <div>
         <h2>
           04. Knapper
@@ -210,10 +210,14 @@
         <div class="codebox">
             <xmp class="defaultbtn">1 <button class="button"Default</button></xmp>
             <xmp class="calltoactionbtn">2 <button class="button-2"Calltoaction</button></xmp>
+
+              <div class="test">
+                
+              </div>
         </div>
       </section>
       <!------------- INPUT FELTER SEKTION ------------>
-      <section class="maininputtitle">
+      <section class="maininputtitle" id="input">
         <div>
         <h2>
           05. Input Felter
@@ -230,11 +234,7 @@
           </form>
        </div>
        <div class="mainfnameform">
-         <h3>
-           KODE
-         </h3>
-          <xmp class="fnameform">1 <label class="fnavn"Fornavn</button></xmp>
-          <xmp class="fnameform2">2 <input type"text" name="Fornavn"></xmp>
+          <xmp class="fnameform3">1 <input type"text" name="Fornavn"></xmp>
        </div>
        <div>
          <h3>
@@ -245,8 +245,7 @@
           </form>
        </div>
        <div class="inputdato">
-          <xmp class="fnameform3">1 <label class="fnavn"Navn</button></xmp>
-          <xmp class="fnameform4">2 <input type"text" name="fornavn"></xmp>
+          <xmp class="fnameform3">2 <input class="calender type="date"</xmp>
        </div>
        <div class="fejltitle">
            <h3>
@@ -260,8 +259,8 @@
              </select>
          </div>
          <div class="inputdato">
-            <xmp class="fnameform3">1 <label class="fnavn"Navn</button></xmp>
-            <xmp class="fnameform4">2 <input type"text" name="fornavn"></xmp>
+            <xmp class="fnameform3">1 <select class="dropdown"></select></xmp>
+            <xmp class="fnameform4">2 <option value="1">1 gæster</option></xmp>
          </div>
         <div class="fejltitle">
             <h3>
@@ -272,12 +271,7 @@
              </form>
              <h4>Hov! Der er en fejl.</h4>
           </div>
-          <div class="inputdato">
-             <xmp class="fnameform3">1 <label class="fnavn"Navn</button></xmp>
-             <xmp class="fnameform4">2 <input type"text" name="fornavn"></xmp>
-          </div>
       </section>
-    </div>
     </main>
   </body>
 </html>
