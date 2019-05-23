@@ -71,6 +71,7 @@ header {
   transition-duration: 0.4s;
   cursor: pointer;
   border-radius: 100px;
+    
 }
 
 .buttontest:hover {
@@ -204,6 +205,7 @@ p.kreep:hover {
   margin-left: auto;
   margin-right: auto;
   border-radius: 10px;
+     font-family: 'Roboto';
 
 }
 
@@ -717,7 +719,8 @@ h2 {
 
   .nav-menu a {
     padding: 38.5px 25px;
-    font-size: 20px;
+    font-size: 17px;
+       font-family: 'Roboto';
   }
 
   .nav-menu img {
@@ -745,11 +748,13 @@ h2 {
   .titel h2 {
     font-size: 34px;
     padding: 10px 10px;
+       font-family: 'Roboto';
   }
 
   .titel p {
     width: 400px;
-    font-size: 20px;
+    font-size: 18px;
+       font-family: 'Roboto';
   }
 
   .box2 {
@@ -770,6 +775,7 @@ h2 {
   .kortInfo p {
     font-size: 20px;
     font-weight: 100;
+       font-family: 'Roboto';
   }
 
   .book {
@@ -781,6 +787,7 @@ h2 {
   .information {
     padding: 50px 0px;
     font-size: 46px;
+       font-family: 'Roboto';
   }
 
   .cirkel {
@@ -812,12 +819,14 @@ h2 {
   .infoBox h2 {
     padding: 30px 0px 20px 30px;
     font-size: 34px;
+       font-family: 'Roboto';
   }
 
   .infoBox p {
     clear: both;
     padding: 0px 30px 0px 30px;
     font-size: 16px;
+       font-family: 'Roboto';
   }
 
   .mereInfo {
@@ -841,11 +850,13 @@ h2 {
   .infoBox2 h2 {
     padding: 30px 0px 20px 130px;
     font-size: 34px;
+       font-family: 'Roboto';
   }
 
   .infoBox2 p {
     padding: 0px 30px 0px 130px;
     font-size: 16px;
+       font-family: 'Roboto';
   }
 
   .mereInfo2 {
@@ -868,12 +879,14 @@ h2 {
   .infoBox3 h2 {
     padding: 30px 0px 20px 30px;
     font-size: 34px;
+       font-family: 'Roboto';
   }
 
   .infoBox3 p {
     clear: both;
     padding: 0px 30px 0px 30px;
     font-size: 16px;
+       font-family: 'Roboto';
   }
 
   .mereInfo3 {
@@ -897,11 +910,13 @@ h2 {
   .infoBox4 h2 {
     padding: 30px 0px 20px 130px;
     font-size: 34px;
+       font-family: 'Roboto';
   }
 
   .infoBox4 p {
     padding: 0px 30px 0px 130px;
     font-size: 16px;
+       font-family: 'Roboto';
   }
 
   .mereInfo4 {
@@ -919,11 +934,13 @@ h2 {
     padding: 30px 50px 20px;
     font-size: 30px;
     font-weight: 900;
+       font-family: 'Roboto';
   }
 
   .aktivInfo p {
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 100;
+       font-family: 'Roboto';
   }
 
   /*-------------------AKTIVITETER SECTION 2 media queries--------------------------*/
@@ -948,12 +965,14 @@ h2 {
   .aktivBox h2 {
     padding: 30px 0px 20px 30px;
     font-size: 34px;
+       font-family: 'Roboto';
   }
 
   .aktivBox p {
     clear: both;
     padding: 0px 30px 0px 30px;
     font-size: 16px;
+       font-family: 'Roboto';
   }
     
   .aktivBox2 {
@@ -965,11 +984,13 @@ h2 {
   .aktivBox2 h2 {
     padding: 30px 0px 20px 130px;
     font-size: 34px;
+       font-family: 'Roboto';
   }
 
   .aktivBox2 p {
     padding: 0px 30px 0px 130px;
     font-size: 16px;
+       font-family: 'Roboto';
   }
 
 
@@ -999,14 +1020,16 @@ h2 {
   }
 
   .LaeringBox h2 {
-    padding: 30px 0px 20px 30px;
+    padding: 30px 0px 10px 30px;
     font-size: 24px;
     font-weight: 100;
+       font-family: 'Roboto';
   }
 
   .LaeringBox p {
     padding: 0px 30px 0px 30px;
     font-size: 16px;
+       font-family: 'Roboto';
   }
 
   .laeringInfo {
@@ -1030,14 +1053,16 @@ h2 {
   }
 
   .LaeringBox2 h2 {
-    padding: 30px 0px 20px 30px;
+    padding: 30px 0px 10px 30px;
     font-size: 24px;
     font-weight: 100;
+       font-family: 'Roboto';
   }
 
   .LaeringBox2 p {
     padding: 0px 30px 0px 30px;
     font-size: 16px;
+       font-family: 'Roboto';
   }
 
   .laeringInfo2 {
@@ -1061,14 +1086,16 @@ h2 {
   }
 
   .LaeringBox3 h2 {
-    padding: 30px 0px 20px 30px;
+    padding: 30px 0px 10px 30px;
     font-size: 24px;
     font-weight: 100;
+       font-family: 'Roboto';
   }
 
   .LaeringBox3 p {
     padding: 0px 30px 0px 30px;
     font-size: 16px;
+       font-family: 'Roboto';
   }
 
   .laeringInfo3 {
@@ -1084,6 +1111,7 @@ h2 {
         font-size: 46px;
         color: #5a94c8;
         font-weight: 900;
+        font-family: 'Roboto';
       }
     .bookingBox{
         width: 900px;
@@ -1105,6 +1133,7 @@ h2 {
         font-size: 30px;
         font-weight: 900;
         margin-top: 100px;
+        font-family: 'Roboto';
     }
     
     .hyttebox{
@@ -1117,14 +1146,15 @@ h2 {
     .hyttebox p, h2{
         font-size: 20px;
         font-weight: 100;
+        font-family: 'Roboto';
         padding: 20px;
-        line-height: 38px;
+        line-height: 32px;
     }
     
     .hyttebox h2{
         float: right;
         text-decoration: underline #5A94C8;
-        padding-top: 140px;
+        padding-top: 115px;
         padding-bottom: 50px;
     }
     
@@ -1144,7 +1174,8 @@ h2 {
         background-color: #C3D2DB;
         border-radius: 5px;
         text-align: center;
-        padding-top: 15px;
+        padding-top: 10px;
+        font-family: 'Roboto';
     }
     
     .hyttebox a div:hover{
@@ -1170,10 +1201,11 @@ h2 {
     .pakke h3{
         text-transform: uppercase;
         text-align: center;
-        font-size: 40px;
+        font-size: 42px;
         font-weight: 900;
-        margin-top: 120px;
+        margin-top: 100px;
         color: #fff;
+        font-family: 'Roboto';
     }
     
     .pakkebox{
@@ -1187,7 +1219,8 @@ h2 {
         font-size: 20px;
         font-weight: 100;
         padding: 20px;
-        line-height: 38px;
+        line-height: 32px;
+        font-family: 'Roboto';
     }
     
     .pakkebox h2{
@@ -1214,6 +1247,7 @@ h2 {
         text-align: center;
         padding-top: 15px;
         box-shadow: 2px 2px 8px #888888;
+        font-family: 'Roboto';
     }
     
     .pakkebox a div:hover{
@@ -1259,7 +1293,8 @@ h2 {
     }
     
     .pakkeBox1 p{
-        font-size: 20px;
+        font-size: 18px;
+        font-family: 'Roboto';
     }
     
     .inputpakke{
@@ -1292,6 +1327,7 @@ h2 {
         font-size: 18px;
         margin: 2px 0;
         cursor: pointer;
+        font-family: 'Roboto';
     }
     
     .søg:hover{
@@ -1348,26 +1384,30 @@ h2 {
     .rejNummer p{
         text-align: center;
         font-size: 24px;
-        margin: 12px 0;
+        margin: 10px 0;
+        font-family: 'Roboto';
     }
     
     .rejBox1 h4{
-        margin: 26px 0 10px 0;
+        margin: 24px 0 5px 0;
         font-size: 20px;
         font-weight: 300;
+        font-family: 'Roboto';
     }
     
     .rejBox1 h5{
         font-size: 14px;
         font-weight: 100;
         opacity: 0.8;
+        font-family: 'Roboto';
     }
     
     .pakkelostitle h3{
         clear: both;
         padding: 60px 0 10px 0;
         text-align: center;
-        font-size: 28px;
+        font-size: 26px;
+        font-family: 'Roboto';
     }
     
     .pakkelostitle h4{
@@ -1375,6 +1415,7 @@ h2 {
         text-align: center;
         font-size: 22px;
         font-weight: 100;
+        font-family: 'Roboto';
     }
     
     .pakkepris{
@@ -1396,6 +1437,7 @@ h2 {
         text-align: center;
         font-size: 40px;
         font-weight: 100;
+        font-family: 'Roboto';
     }
     
     .prisBox1 p{
@@ -1403,6 +1445,7 @@ h2 {
         text-align: center;
         opacity: 0.8;
         font-size: 14px;
+        font-family: 'Roboto';
     }
     
     .line{
@@ -1413,7 +1456,7 @@ h2 {
     .line2{
         margin: 0 auto;
         width: 180px;
-        margin-bottom: 40px;
+        margin-bottom: 20px;
     }
     
     .prisBox1 h4{
@@ -1421,6 +1464,7 @@ h2 {
         text-align: center;
         font-size: 50px;
         font-weight: 900;
+        font-family: 'Roboto';
     }
     
     .prisBox1 a{
@@ -1441,6 +1485,18 @@ h2 {
         font-size: 24px;
         color: #ffffff;
         opacity: 1;
+        font-family: 'Roboto';
+    }
+    
+    .pakkevalg:hover{
+        -moz-transform: scale(0.9);
+    -webkit-transform: scale(0.9);
+    -o-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+    
+    transition-duration: 1s;
     }
     
     .prisBox1 h3{
@@ -1449,6 +1505,7 @@ h2 {
         font-size: 16px;
         font-weight: 100;
         text-decoration: underline;
+        font-family: 'Roboto';
     }
     
     .prisBox1 h3 a{
@@ -1459,6 +1516,7 @@ h2 {
         padding: 40px 0 60px 0;
         text-align: center;
         font-size: 28px;
+        font-family: 'Roboto';
     }
     
     .hosOs{
@@ -1485,12 +1543,14 @@ h2 {
         text-align: center;
         font-size: 22px;
         font-weight: 900;
+        font-family: 'Roboto';
     }
     
     .hosBox1 p{
         padding: 0 20px;
         text-align: center;
         font-size: 18px;
+        font-family: 'Roboto';
     }
     
     #rejsebox a{
@@ -1521,15 +1581,16 @@ h2 {
     }
     
     .pakkelostitle1 h3{
-        padding: 0px 0 10px 0;
-        margin-top: 5px;
+        padding: 0px 0 5px 0;
         font-size: 28px;
+        font-family: 'Roboto';
     }
     
     .pakkelostitle1 h4{
         padding-bottom: 20px;
         font-size: 22px;
         font-weight: 100;
+        font-family: 'Roboto';
     }
     
     #oplyBox1{
@@ -1575,6 +1636,7 @@ h2 {
         margin: 20px 10px 10px 20px;
         font-size: 30px;
         font-weight: 100;
+        font-family: 'Roboto';
     }
     
     .oplysBox1 hr{
@@ -1591,6 +1653,7 @@ h2 {
         margin: 0 5px 5px;
         font-size: 12px;
         font-weight: 900;
+        font-family: 'Roboto';
         text-transform: uppercase;
     }
  
@@ -1632,6 +1695,7 @@ h2 {
         margin: 20px 10px 5px 20px;
         font-size: 30px;
         font-weight: 100;
+        font-family: 'Roboto';
     }
     
     .oplysBox2 p{
@@ -1743,8 +1807,9 @@ h2 {
     .tilbage p{
         text-align: center;
         margin: 9px;
-        font-size: 18px;
+        font-size: 16px;
         color: #333;
+        font-family: 'Roboto';
     }
     
     .forsæt{
@@ -1752,7 +1817,6 @@ h2 {
         height: 40px;
         background-color: #5AC869;
         float: right;
-        border: 1px solid #707070;
         border-radius: 5px;
     }
     
@@ -1760,7 +1824,19 @@ h2 {
         text-align: center;
         margin: 9px;
         font-size: 18px;
+        font-family: 'Roboto';
         color: #fff;
+    }
+    
+    .forsæt:hover{
+        -moz-transform: scale(0.9);
+    -webkit-transform: scale(0.9);
+    -o-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+    
+    transition-duration: 1s;
     }
     
 /*-------------------UNDERSIDE PAKKELØSNING3 media queries----------------------------*/
@@ -1829,6 +1905,7 @@ h2 {
         margin: 20px 10px 10px 20px;
         font-size: 30px;
         font-weight: 100;
+        font-family: 'Roboto';
     }
     
     .p3oplysBox1 hr{
@@ -1856,6 +1933,7 @@ h2 {
     
     .p3oplysBox2 p{
         margin: 20px;
+        font-family: 'Roboto';
     }
     
     .p3forsæt{
@@ -1863,7 +1941,6 @@ h2 {
         height: 40px;
         background-color: #5AC869;
         float: right;
-        border: 1px solid #707070;
         border-radius: 5px;
     }
     
@@ -1872,6 +1949,11 @@ h2 {
         margin: 9px;
         font-size: 18px;
         color: #fff;
+        font-family: 'Roboto';
+    }
+    
+    .p3forsæt:hover{
+        
     }
     
 /*-------------------UNDERSIDE PAKKELØSNING4 media queries----------------------------*/
@@ -1970,6 +2052,7 @@ animation: fadein 2.5s;
     color: #fff;
     text-align: left;
     line-height: 26px;
+    font-family: 'Roboto';
 }
 
 .mySlides1 h3{
@@ -1979,6 +2062,7 @@ animation: fadein 2.5s;
     color: #fff;
     text-align: left;
     line-height: 26px;
+    font-family: 'Roboto';
 }
 
 .mySlides1 p{
@@ -1986,8 +2070,9 @@ animation: fadein 2.5s;
     text-align: center;
 animation: fadein 2.5s;
 	font-size: 24px;
-    font-weight: 900;
+    font-weight: 100;
     margin-bottom: 20px;
+    font-family: 'Roboto';
 }
 
 /* The dot/bullet/indicator container */
