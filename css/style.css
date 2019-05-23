@@ -1222,17 +1222,14 @@ h2 {
 /*-------------------UNDERSIDE PAKKELØSNING media queries----------------------------*/
     .pakkelos{
         width: 900px;
-        height: 200px;
+        height: 70px;
         margin: 0 auto;
-        margin-bottom: 50px;
         padding-top: 140px;
-        background-color: red;
     }
     
     .pakkeBox1{
-        background-color: blue;
         width: calc(25% - 10px);
-        height: 100px;
+        height: 90px;
         float: left;
         margin: 5px;
     }
@@ -1242,10 +1239,196 @@ h2 {
     }
     
     .inputpakke{
-        width: 150px;
+        width: 170px;
         height: 30px;
         margin: 10px 0;
         border-radius: 5px;
+        border: 1px solid #707070;
+        padding: 0px 5px;
+    }
+    
+    #gaest{
+        height: 32px;
+        padding: 0;
+    }
+    
+    .søg{
+        background-color: #5AC869;
+        width: 170px;
+        height: 30px;
+        margin: 33px 0 10px;
+        border-radius: 5px;
+        border: 1px solid #707070;
+        padding: 0px 5px;
+    }
+    
+    .søg p{
+        text-align: center;
+        color: #fff;
+        font-size: 18px;
+        margin: 2px 0;
+        cursor: pointer;
+    }
+    
+    .søg:hover{
+        opacity: 0.9;
+    }
+    
+    .rejBox1{
+        width: calc(25% - 4px);
+        height: 100px;
+        float: left;
+        border-right: 1px solid #707070;
+        border-top: 1px solid #707070;
+        border-bottom: 1px solid #707070;
+    }
+    
+    #rejBox1{
+        border: 1px solid #707070;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        background-color: #5AC869;
+    }
+    
+    #rejBox1 h4{
+        color: #fff;
+    }
+    
+    #rejBox1 h5{
+        color: #fff;
+    }
+    
+    #rejBox2{
+    }
+    
+    #rejBox3{
+    }
+    
+    #rejBox4{
+        border-top: 1px solid #707070;
+        border-bottom: 1px solid #707070;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+    
+    .rejNummer{
+        width: 50px;
+        height: 50px;
+        border: 1px solid #707070;
+        border-radius: 10px;
+        margin: 25px 10px 25px 15px;
+        background-color: white;
+        float: left;
+    }
+    
+    .rejNummer p{
+        text-align: center;
+        font-size: 24px;
+        margin: 12px 0;
+    }
+    
+    .rejBox1 h4{
+        margin: 26px 0 10px 0;
+        font-size: 20px;
+        font-weight: 300;
+    }
+    
+    .rejBox1 h5{
+        font-size: 14px;
+        font-weight: 100;
+        opacity: 0.8;
+    }
+    
+    .pakkelostitle h3{
+        clear: both;
+        padding: 60px 0 10px 0;
+        text-align: center;
+        font-size: 28px;
+    }
+    
+    .pakkelostitle h4{
+        padding-bottom: 80px;
+        text-align: center;
+        font-size: 22px;
+        font-weight: 100;
+    }
+    
+    .pakkepris{
+        height: 400px;
+        padding-bottom: 60px;
+    }
+    
+    .prisBox1{
+        background-color: #E6EEF4;
+        width: calc(25% - 10px);
+        height: 430px;
+        float: left;
+        margin: 5px;
+        border-radius: 10px;
+    }
+    
+    .prisBox1 h5{
+        margin: 20px 0 10px 0;
+        text-align: center;
+        font-size: 40px;
+        font-weight: 100;
+    }
+    
+    .prisBox1 p{
+        margin: 0px 0 10px 0;
+        text-align: center;
+        opacity: 0.8;
+        font-size: 14px;
+    }
+    
+    .line{
+        margin: 0 auto;
+        width: 180px;
+    }
+    
+    .line2{
+        margin: 0 auto;
+        width: 180px;
+        margin-bottom: 40px;
+    }
+    
+    .prisBox1 h4{
+        margin: 10px 0 10px 0;
+        text-align: center;
+        font-size: 50px;
+        font-weight: 900;
+    }
+    
+    .prisBox1 a{
+        text-decoration: none;
+    }
+    
+    .pakkevalg {
+        margin: 0 auto;
+        width: 100px;
+        height: 50px;
+        background-color: #5AC869;
+        border: 1px solid #5AC869;
+        border-radius: 10px;
+    }
+    
+    .pakkevalg p{
+        padding: 10px;
+        font-size: 24px;
+        color: #ffffff;
+        opacity: 1;
+    }
+    
+    .prisBox1 h3{
+        padding: 10px;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 100;
+        text-decoration: underline;
+    }
+    
+    .prisBox1 h3 a{
+        color: #333;
     }
 }
 

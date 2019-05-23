@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link href="../css/style.css" rel="stylesheet" type="text/css" />
+    <!-- Authors: David Bushell https://dbushell.com @dbushell & Ramiro Rikkert GitHub @RamRik -->
+    <link rel="stylesheet" href="../css/pikaday.css">
+    
     <title>Sportspark - Kampagneside</title>
   </head>
   <body>
@@ -25,21 +28,143 @@
           <div class="pakkelos">
               <div class="pakkeBox1">
                   <p>Ankomst</p>
-                  <input class="inputpakke">
+                  <input class="inputpakke" placeholder="20 maj 2019" id="datepicker1">
               </div>
               <div class="pakkeBox1">
                   <p>Afrejse</p>
-                  <input>
+                  <input class="inputpakke" placeholder="25 maj 2019" id="datepicker">
               </div>
               <div class="pakkeBox1">
                   <p>Gæster</p>
+                    <select name="cars" class="inputpakke" id="gaest">
+                      <option value="1 gæst">1 Gæst</option>
+                      <option value="2 gæster">2 Gæster</option>
+                      <option value="3 gæster">3 Gæster</option>
+                      <option value="4 gæster">4 Gæster</option>
+                      <option value="5 gæster">5 Gæster</option>
+                      <option value="6 gæster">6 Gæster</option>
+                      <option value="7 gæster">7 Gæster</option>
+                      <option value="8 gæster">8 Gæster</option>
+                      <option value="9 gæster">9 Gæster</option>
+                      <option value="10 gæster">10 Gæster</option>
+                      <option value="11 gæster">11 Gæster</option>
+                      <option value="12 gæster">12 Gæster</option>
+                      <option value="13 gæster">13 Gæster</option>
+                      <option value="14 gæster">14 Gæster</option>
+                      <option value="15 gæster">15 Gæster</option>
+                      <option value="16 gæster">16 Gæster</option>
+                      <option value="17 gæster">17 Gæster</option>
+                      <option value="18 gæster">18 Gæster</option>
+                    </select>
               </div>
               <div class="pakkeBox1">
-                  
+                  <div class="søg">
+                      <p>Søg</p>
+                  </div>
+              </div>
+          </div>
+          <div class="rejsebox" id="rejsebox">
+              <div class="rejBox1" id="rejBox1">
+                  <div class="rejNummer">
+                      <p>1</p>
+                  </div>
+                  <h4>Vælg pakke</h4>
+                  <h5>Vælg din favorit pakke</h5>
+              </div>
+              <div class="rejBox1" id="rejBox2">
+                  <div class="rejNummer">
+                      <p>2</p>
+                  </div>
+                  <h4>Information</h4>
+                  <h5>Dine oplysninger</h5>
+              </div>
+              <div class="rejBox1" id="rejBox3">
+                  <div class="rejNummer">
+                      <p>3</p>
+                  </div>
+                  <h4>Betaling</h4>
+                  <h5>Du er næsten i mål</h5>
+              </div>
+              <div class="rejBox1" id="rejBox4">
+                  <div class="rejNummer">
+                      <p>4</p>
+                  </div>
+                  <h4>Bekræftelse</h4>
+                  <h5>Tak for din bestilling</h5>
+              </div>
+          </div>
+          <div class="pakkelostitle">
+              <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod. </h3>
+              <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod. </h4>
+          </div>
+          <div class="pakkepris">
+              <div class="prisBox1">
+                  <h5>2 dages Lejrskole</h5>
+                  <p>Lorem ipsum dolor sit amet</p>
+                  <hr class="line">
+                  <h4>358,-</h4>
+                  <p>Normalpris 428,- pr person.</p>
+                  <p>Kampagnepris 358,- pr. person.</p>
+                  <hr class="line2">
+                  <div class="pakkevalg"><a href="#"><p>Vælg</p></a></div>
+                  <h3><a href="#">Læs mere om pakken</a></h3>
+              </div>
+              <div class="prisBox1">
+                  <h5>3 dages Lejrskole</h5>
+                  <p>Lorem ipsum dolor sit amet</p>
+                  <hr class="line">
+                  <h4>558,-</h4>
+                  <p>Normalpris 728,- pr person.</p>
+                  <p>Kampagnepris 558,- pr. person.</p>
+                  <hr class="line2">
+                  <div class="pakkevalg"><a href="#"><p>Vælg</p></a></div>
+                  <h3><a href="#">Læs mere om pakken</a></h3>
+              </div>
+              <div class="prisBox1">
+                  <h5>5 dages Lejrskole</h5>
+                  <p>Lorem ipsum dolor sit amet</p>
+                  <hr class="line">
+                  <h4>966,-</h4>
+                  <p>Normalpris 1228,- pr person.</p>
+                  <p>Kampagnepris 966,- pr. person.</p>
+                  <hr class="line2">
+                  <div class="pakkevalg"><a href="#"><p>Vælg</p></a></div>
+                  <h3><a href="#">Læs mere om pakken</a></h3>
+              </div>
+              <div class="prisBox1">
+                  <h5>7 dages Lejrskole</h5>
+                  <p>Lorem ipsum dolor sit amet</p>
+                  <hr class="line">
+                  <h4>1259,-</h4>
+                  <p>Normalpris 1459,- pr person.</p>
+                  <p>Kampagnepris 1259,- pr. person.</p>
+                  <hr class="line2">
+                  <div class="pakkevalg"><a href="#"><p>Vælg</p></a></div>
+                  <h3><a href="#">Læs mere om pakken</a></h3>
               </div>
           </div>
       </div>
     </section>
-    <script src="js/main.js"></script>
+     <!-- Authors: David Bushell https://dbushell.com @dbushell & Ramiro Rikkert GitHub @RamRik -->
+    <script src="../js/pikaday.js"></script>
+    <script>
+    var picker = new Pikaday(
+    {
+        field: document.getElementById('datepicker'),
+        firstDay: 1,
+        minDate: new Date(),
+        maxDate: new Date(2020, 12, 31),
+        yearRange: [2000,2020]
+    });
+        var picker = new Pikaday(
+    {
+        field: document.getElementById('datepicker1'),
+        firstDay: 1,
+        minDate: new Date(),
+        maxDate: new Date(2020, 12, 31),
+        yearRange: [2000,2020]
+    });
+    </script>
+    <script src="../js/test.js"></script>
   </body>
 </html>
