@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="da" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link href="../css/style.css" rel="stylesheet" type="text/css" />
+    <!-- Authors: David Bushell https://dbushell.com @dbushell & Ramiro Rikkert GitHub @RamRik -->
+    <link rel="stylesheet" href="../css/pikaday.css">
+    
+    <title>Sportspark - Kampagneside</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <a href="../index.html"><img src="../img/Sportspark%20logo.png" alt="logo"/></a>
+      </div>
+      <div class="nav-menu">
+        <a href="laering.html">Læring</a>
+        <a href="aktiviteter.html">Aktiviteter</a>
+        <a href="#">Faciliteter</a>
+        <a href="#">Kontakt os</a>
+        <img src="../img/we-have-received-certificate.jpg" alt="Trip Advisor logo"/>
+      </div>
+    </header>
+    <section class="section 2">
+          <div class="bgimg">
+      <div class="middle">
+        <h1>COMING SOON</h1>
+        <hr>
+        <p id="demo"></p>
+      </div>
+    </div>
+    </section>
+     <!-- Authors: David Bushell https://dbushell.com @dbushell & Ramiro Rikkert GitHub @RamRik -->
+    <script src="../js/pikaday.js"></script>
+    <script>
+    var picker = new Pikaday(
+    {
+        field: document.getElementById('datepicker'),
+        firstDay: 1,
+        minDate: new Date(),
+        maxDate: new Date(2020, 12, 31),
+        yearRange: [2000,2020]
+    });
+        var picker = new Pikaday(
+    {
+        field: document.getElementById('datepicker1'),
+        firstDay: 1,
+        minDate: new Date(),
+        maxDate: new Date(2020, 12, 31),
+        yearRange: [2000,2020]
+    });
+    </script>
+    <script src="../js/countdown.js"></script>
+  </body>
+</html>

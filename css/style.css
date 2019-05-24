@@ -61,13 +61,12 @@ header {
 .buttontest {
   width: 60px;
   height: 60px;
-  background-color: white;
+  background-color: #fff;
   color: black;
   border: 2px solid white;
   display: inline-block;
   font-size: 16px;
   margin: 10px 2px;
-  -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
   cursor: pointer;
   border-radius: 100px;
@@ -76,7 +75,7 @@ header {
 
 .buttontest:hover {
   background-color: #5a94c8;
-  color: white;
+  color: #fff;
   border: 2px solid #5a94c8;
 }
 
@@ -276,7 +275,7 @@ p.kreep:hover {
   height: 275px;
   position: absolute;
   opacity: 0;
-//*  transform: translateY(20px); *//
+ /*  transform: translateY(20px); */
   transition: 0.5s all ease-in-out;
 }
 
@@ -2250,4 +2249,35 @@ animation: fadein 2.5s;
   color: #000;
   text-decoration: none;
   cursor: pointer;
+}
+
+/* test */
+
+.bgimg {
+  background-image: url('../img/71.jpg');
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+  font-family: 'Roboto';
+  font-size: 25px;
+}
+
+.bottomleft {
+  position: absolute;
+  bottom: 0;
+  left: 16px;
+}
+
+.middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+hr {
+  margin: auto;
+  width: 40%;
 }
