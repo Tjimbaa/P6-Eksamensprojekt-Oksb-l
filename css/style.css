@@ -2157,7 +2157,7 @@ animation: fadein 2.5s;
   padding: 20px;
   border: 1px solid #888;
   width: 50%;
-    height: 600px;
+    height: 720px;
 }
 
 .modal-content h4{
@@ -2202,9 +2202,8 @@ animation: fadein 2.5s;
 }
 
 .modal-clear1 div{
-    width: 200px;
-    height: 200px;
-    background-color: red;
+    width: 260px;
+    height: 140px;
     font-family: 'Roboto';
     font-size: 18px;
     font-weight: 900;
@@ -2218,10 +2217,24 @@ animation: fadein 2.5s;
     font-weight: 900;
 }
 
-.daginfo{
+.modal-clear1 ul{
+    padding: 0 20px;
+}
+
+.modal-clear1 ul li{
+    padding: 5px 0 0 0;
     font-family: 'Roboto';
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 100;
+    padding: 5px 0px 0px 0px;
+}
+
+.test23{
+    clear: both;
+    font-size: 20px;
+    font-family: 'Roboto';
+    text-align: center;
+    font-weight: 900;
 }
 
 /* The Close Button */
